@@ -1,0 +1,20 @@
+{
+  "name": "@smdn/core",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Samsoedien <contact@samsoedien.com>",
+  "scripts": {
+    "build:prod": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib",
+    "clean": "rm -rf dist/* && rm -rf lib/*"
+  },
+  "peerDependencies": {
+    "react": ">= 16",
+    "react-dom": ">= 16",
+    "styled-components": ">= 5"
+  },
+  "dependencies": {
+    "@smdn/shared": "1.0.0"
+  }
+}
