@@ -1,5 +1,5 @@
 {
-  "name": "@smdn/core",
+  "name": "@smdn/icons",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,6 @@
     "styled-components": ">= 5"
   },
   "dependencies": {
-    "@smdn/shared": "1.0.0",
-    "@smdn/icons": "1.0.0"
+    "@smdn/shared": "1.0.0"
   }
 }
