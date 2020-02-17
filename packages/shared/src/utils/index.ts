@@ -1,0 +1,1 @@
+export { findByTestAttr } from './testUtils'
