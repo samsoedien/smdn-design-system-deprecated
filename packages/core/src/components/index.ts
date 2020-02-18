@@ -1,4 +1,6 @@
 import Avatar from './Avatar'
+import Badge from './Badge'
+import Breadcrumbs from './Breadcrumbs'
 import Button from './Button'
 import Callout from './Callout'
 import Card from './Card'
@@ -12,4 +14,20 @@ import Textarea from './Textarea'
 import Toast from './Toast'
 import Tooltip from './Tooltip'
 
-export { Avatar, Button, Callout, Card, Divider, Input, ListGroup, Spacer, Table, Tag, Textarea, Toast, Tooltip }
+export {
+  Avatar,
+  Badge,
+  Breadcrumbs,
+  Button,
+  Callout,
+  Card,
+  Divider,
+  Input,
+  ListGroup,
+  Spacer,
+  Table,
+  Tag,
+  Textarea,
+  Toast,
+  Tooltip,
+}

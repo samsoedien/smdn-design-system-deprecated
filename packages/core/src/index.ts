@@ -1,1 +1,1 @@
-export default 'core'
+export * from './components'
