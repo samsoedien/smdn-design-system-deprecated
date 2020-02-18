@@ -23,6 +23,6 @@
     "composite": true,
     "declarationMap": true
   },
-  "include": ["./src/**/*", "./types/**/*"],
+  "include": ["./packages/**/*"],
   "exclude": ["**/node_modules/*"]
 }
