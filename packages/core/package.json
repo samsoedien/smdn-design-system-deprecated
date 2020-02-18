@@ -1,8 +1,8 @@
 {
   "name": "@smdn/core",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "author": "Samsoedien <contact@samsoedien.com>",
   "scripts": {
@@ -17,6 +17,9 @@
   "dependencies": {
     "@smdn/icons": "1.0.0",
     "@smdn/shared": "1.0.0",
-    "@types/styled-components": "^4.4.3"
+    "@types/styled-components": "^4.4.3",
+    "enzyme": "^3.11.0",
+    "jest-styled-components": "^7.0.0",
+    "prop-types": "^15.7.2"
   }
 }
