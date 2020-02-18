@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Avatar Avatar - Default 1`] = `
+<img
+  alt="John"
+  className="sc-fzoXzr jpoGOy smdn-avatar"
+  data-test="avatar-component"
+  type="user"
+/>
+`;
+
+exports[`Storyshots Components/Button Button - Default 1`] = `
+<button
+  className="sc-fzpjYC hAIPnx smdn-b-button"
+  data-test="button-component"
+  onClick={[Function]}
+  size="regular"
+  type="submit"
+>
+  Default Button
+</button>
+`;
+
+exports[`Storyshots Components/Button Button - Loading 1`] = `
+<button
+  className="sc-fzpjYC ffxrEv smdn-b-button"
+  data-test="button-component"
+  onClick={[Function]}
+  size="regular"
+  type="submit"
+>
+  Loading...
+</button>
+`;
+
+exports[`Storyshots Components/Button Button - Primary 1`] = `
+<button
+  className="sc-fzpjYC bDoCJG smdn-b-button"
+  data-test="button-component"
+  onClick={[Function]}
+  size="regular"
+  type="submit"
+>
+  Primary Button
+</button>
+`;
+
+exports[`Storyshots Components/Button Button - Secondary 1`] = `
+<button
+  className="sc-fzpjYC hAIPnx smdn-b-button"
+  data-test="button-component"
+  onClick={[Function]}
+  size="regular"
+  type="submit"
+>
+  Secondary Button
+</button>
+`;
+
+exports[`Storyshots Components/Button Button - Sizes 1`] = `
+Array [
+  <button
+    className="sc-fzpjYC hjfsLK smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="small"
+    type="submit"
+  >
+    Small
+  </button>,
+  <button
+    className="sc-fzpjYC hAIPnx smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="regular"
+    type="submit"
+  >
+    Regular
+  </button>,
+  <button
+    className="sc-fzpjYC iZpsXX smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="large"
+    type="submit"
+  >
+    Large
+  </button>,
+]
+`;
+
+exports[`Storyshots Components/Button Button - Tertiary 1`] = `
+<button
+  className="sc-fzpjYC fscsfj smdn-b-button"
+  data-test="button-component"
+  onClick={[Function]}
+  size="regular"
+  type="submit"
+>
+  Tertiary Button
+</button>
+`;
+
+exports[`Storyshots Components/Button Buttons 1`] = `
+Array [
+  <button
+    className="sc-fzpjYC bDoCJG smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="regular"
+    type="submit"
+  >
+    Primary
+  </button>,
+  <button
+    className="sc-fzpjYC hAIPnx smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="regular"
+    type="submit"
+  >
+    Secondary
+  </button>,
+  <button
+    className="sc-fzpjYC fscsfj smdn-b-button"
+    data-test="button-component"
+    onClick={[Function]}
+    size="regular"
+    type="submit"
+  >
+    Tertiary
+  </button>,
+]
+`;
+
+exports[`Storyshots Components/Callout Callout - Default 1`] = `
+<div
+  className="sc-fznxsB ipcnjR smdn-callout"
+  color="info"
+  data-test="callout-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Components/Card Card - Default 1`] = `
+<div
+  className="sc-fznJRM eTplsZ smdn-card"
+  color="white"
+  data-test="card-component"
+  elevation={1}
+>
+  Hello World
+</div>
+`;
+
+exports[`Storyshots Components/CardContent Card Content - Default 1`] = `
+<section
+  className="sc-fznWqX bSskVD smdn-card-content"
+  data-test="card-content-component"
+>
+  Hello World
+</section>
+`;
+
+exports[`Storyshots Components/CardFooter Card Footer - Default 1`] = `
+<footer
+  className="sc-fzoiQi epeKJB smdn-card-footer"
+  data-test="card-footer-component"
+>
+  Hello World
+</footer>
+`;
+
+exports[`Storyshots Components/CardHeader Card Header - Default 1`] = `
+<header
+  className="sc-fzqARJ jIrcqg smdn-card-header"
+  data-test="card-header-component"
+>
+  Hello World
+</header>
+`;
+
+exports[`Storyshots Components/Divider Divider - Default 1`] = `
+<hr
+  className="sc-fzqNqU hFpwJZ smdn-divider"
+  data-test="divider-component"
+/>
+`;
+
+exports[`Storyshots Components/Input Input - Default 1`] = `
+<input
+  className="sc-fzoyTs gcHTzN smdn-input"
+  data-test="input-component"
+  name="name"
+  onChange={[Function]}
+  placeholder="Type Something..."
+  type="text"
+/>
+`;
+
+exports[`Storyshots Components/ListGroup ListGroup - Default 1`] = `
+<ul
+  className="sc-fzoNJl kUMlmZ smdn-list-group"
+  data-test="list-group-component"
+>
+  List Group
+</ul>
+`;
+
+exports[`Storyshots Components/Spacer Spacer - Default 1`] = `
+<br
+  className="sc-fzoXWK uWlAa smdn-spacer"
+  data-test="spacer-component"
+  size="sm"
+/>
+`;
+
+exports[`Storyshots Components/Table Table - Default 1`] = `
+<table
+  className="sc-fzpmMD dcPMuV smdn-table"
+  data-test="table-component"
+>
+  <thead
+    className="sc-fznxKY gfAcsO smnd-table-heade"
+    data-test="table-head-component"
+  >
+    <tr
+      className="sc-fznMAR DQQGK smdn-table-row"
+      data-test="table-row-component"
+    >
+      <th
+        className="sc-fznWOq iMvrRh smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Heading 1
+      </th>
+      <th
+        className="sc-fznWOq iMvrRh smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Heading 2
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="sc-fzqBkg cifTAZ smdn-table-body"
+    data-test="table-body-component"
+  >
+    <tr
+      className="sc-fznMAR DQQGK smdn-table-row"
+      data-test="table-row-component"
+    >
+      <td
+        className="sc-fzolEj dmgWTu smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Body 1
+      </td>
+      <td
+        className="sc-fzolEj dmgWTu smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Body 2
+      </td>
+    </tr>
+    <tr
+      className="sc-fznMAR DQQGK smdn-table-row"
+      data-test="table-row-component"
+    >
+      <td
+        className="sc-fzolEj dmgWTu smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Body 3
+      </td>
+      <td
+        className="sc-fzolEj dmgWTu smdn-table-cell"
+        data-test="table-cell-component"
+      >
+        Body 4
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Components/Tag Tag - Default 1`] = `
+<span
+  className="sc-fzqPZZ hLQhtJ smdn-tag"
+  color="#efefef"
+  data-test="tag-component"
+>
+  <span>
+    Hello World
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Textarea Textarea - Default 1`] = `
+<textarea
+  autofocus={false}
+  className="sc-fzoxKX dFMZRQ smdn-textarea"
+  cols={50}
+  data-test="textarea-component"
+  disabled={false}
+  name="name"
+  onChange={[Function]}
+  rows={4}
+>
+  Hello world
+</textarea>
+`;
+
+exports[`Storyshots Components/Toast Toast - Default 1`] = `
+<div
+  className="sc-fzoKki fatNHo smdn-toast"
+  color="info"
+  data-test="toast-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Components/Tooltip Tooltip - Default 1`] = `
+<div
+  className="sc-fzoYkl iMSPiv smdn-tooltip"
+  data-test="tooltip-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Layouts/HeroBanner HeroBanner - Default 1`] = `
+<div
+  className="sc-fzomME jhgcsc smdn-hero-banner"
+  data-test="hero-banner-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Layouts/Page Page - Default 1`] = `
+<div
+  className="sc-fzqAbL kGvRbe smdn-page"
+  data-test="page-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Layouts/PageContent PageContent - Default 1`] = `
+<div
+  className="sc-fzqMAW ivNxPc smdn-page-content"
+  data-test="page-content-component"
+>
+  Hello world
+</div>
+`;
+
+exports[`Storyshots Layouts/PageFooter PageFooter - Default 1`] = `
+<footer
+  className="sc-fzoydu kGTeTH smdn-page-footer"
+  data-test="page-footer-component"
+>
+  Hello world
+</footer>
+`;
+
+exports[`Storyshots Layouts/PageHeader PageHeader - Default 1`] = `
+<header
+  className="smdn-page-header"
+  data-test="page-header-component"
+>
+  Hello world
+</header>
+`;
+
+exports[`Storyshots Layouts/PageSideBar PageSideBar - Default 1`] = `
+<div
+  className="smdn-page-side-bar"
+  data-test="page-side-bar-component"
+/>
+`;
