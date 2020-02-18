@@ -16,7 +16,7 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: yarn build:production
-      - run: yarn test
+      - run: yarn test:ci
       # - run:
       #     name: release
       #     command: yarn release || true
