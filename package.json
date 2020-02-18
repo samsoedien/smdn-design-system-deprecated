@@ -23,7 +23,8 @@
     "compile": "tsc --noEmit",
     "compile:watch": "yarn compile --watch",
     "start": "yarn lerna run start --stream",
-    "lint": "eslint ./packages --ext js,jsx,ts,tsx",
+    "lint": "yarn lint:scripts && yarn lint:styles",
+    "lint:scripts": "eslint ./packages --ext js,jsx,ts,tsx",
     "lint:styles": "stylelint './packages/**/*.tsx'",
     "test": "jest",
     "test:coverage": "yarn run test --coverage",
@@ -99,7 +100,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "yarn --silent lint --fix"
+      "yarn --silent lint:scripts --fix"
     ],
     "*.tsx": [
       "yarn --silent lint:styles"
