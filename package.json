@@ -28,7 +28,7 @@
     "lint:scripts": "eslint ./packages --ext js,jsx,ts,tsx",
     "lint:styles": "stylelint './packages/**/*.tsx'",
     "test": "jest --watch",
-    "test:ci": "yarn test -u --ci",
+    "test:ci": "jest --watchAll -u --ci",
     "test:coverage": "yarn test --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
