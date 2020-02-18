@@ -6,6 +6,7 @@ export type Color = 'white' | 'grey'
 export interface ICardProps {
   color?: Color
   elevation?: number
+  withBorder?: boolean
   children: React.ReactNode
 }
 
@@ -26,9 +27,15 @@ const StyledCard = styled.div<ICardProps>`
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
 `
 
-const Card: React.FC<ICardProps> = ({ color, elevation, children }) => {
+const Card: React.FC<ICardProps> = ({ color, elevation, withBorder, children }) => {
   return (
-    <StyledCard color={color} elevation={elevation} className="smdn-card" data-test="card-component">
+    <StyledCard
+      color={color}
+      elevation={elevation}
+      withBorder={withBorder}
+      className="smdn-card"
+      data-test="card-component"
+    >
       {children}
     </StyledCard>
   )
@@ -37,11 +44,13 @@ const Card: React.FC<ICardProps> = ({ color, elevation, children }) => {
 Card.defaultProps = {
   color: 'white',
   elevation: 1,
+  withBorder: true,
 }
 
 Card.propTypes = {
   color: PropTypes.oneOf<Color>(['white', 'grey']),
   elevation: PropTypes.number,
+  withBorder: PropTypes.bool,
   children: PropTypes.node.isRequired,
 }
 
