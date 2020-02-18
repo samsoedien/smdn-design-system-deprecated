@@ -6,7 +6,9 @@
   "license": "MIT",
   "author": "Samsoedien <contact@samsoedien.com>",
   "scripts": {
-    "build:prod": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib",
+    "build": "yarn build:types && yarn build:scripts",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline",
     "clean": "rm -rf dist/* && rm -rf lib/*"
   },
   "peerDependencies": {

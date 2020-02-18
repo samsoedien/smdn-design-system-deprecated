@@ -18,14 +18,15 @@
   ],
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
-    "build:prod": "yarn lerna run build:prod --stream",
+    "build": "yarn lerna run build --parallel --stream",
     "clean": "yarn lerna clean && lerna run --parallel clean",
-    "compile": "yarn tsc --noEmit",
+    "compile": "tsc --noEmit",
     "compile:watch": "yarn compile --watch",
     "start": "yarn lerna run start --stream",
     "lint": "eslint ./packages --ext js,jsx,ts,tsx",
     "lint:styles": "stylelint './packages/**/*.tsx'",
     "test": "jest",
+    "test:coverage": "yarn run test --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
