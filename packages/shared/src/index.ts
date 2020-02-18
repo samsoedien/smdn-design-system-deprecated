@@ -8,4 +8,4 @@ export { styles, animation, icons, global }
 export { color, typography } from './tokens/styles'
 export { GlobalStyle, fontUrl } from './tokens/global'
 
-export { findByTestAttr } from './utils/testUtils'
+export { findByTestAttr } from './utils'

@@ -15,6 +15,6 @@ describe('ButtonComponent', () => {
   it('renders without error', () => {
     const wrapper = setup()
     const component = findByTestAttr(wrapper, 'button-component')
-    expect(component.length).toBe(1)
+    expect(component).toHaveLength(1)
   })
 })

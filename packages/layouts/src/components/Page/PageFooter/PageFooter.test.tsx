@@ -15,6 +15,6 @@ describe('PageFooterComponent', () => {
   it('renders without error', () => {
     const wrapper = setup()
     const component = findByTestAttr(wrapper, 'page-footer-component')
-    expect(component.length).toBe(1)
+    expect(component).toHaveLength(1)
   })
 })

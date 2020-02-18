@@ -13,7 +13,11 @@ export interface IHeroBannerProps {
 }
 
 const HeroBanner: React.FC<IHeroBannerProps> = ({ children }) => {
-  return <StyledHeroBanner>{children}</StyledHeroBanner>
+  return (
+    <StyledHeroBanner className="smdn-hero-banner" data-test="hero-banner-component">
+      {children}
+    </StyledHeroBanner>
+  )
 }
 
 HeroBanner.defaultProps = {

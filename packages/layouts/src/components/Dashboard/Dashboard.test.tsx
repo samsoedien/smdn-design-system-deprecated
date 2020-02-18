@@ -15,6 +15,6 @@ describe('DashboardComponent', () => {
   it('renders without error', () => {
     const wrapper = setup()
     const component = findByTestAttr(wrapper, 'dashboard-component')
-    expect(component.length).toBe(1)
+    expect(component).toHaveLength(1)
   })
 })
