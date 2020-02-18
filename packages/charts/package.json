@@ -1,0 +1,28 @@
+{
+  "name": "@smdn/charts",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/charts",
+  "author": "Samsoedien <contact@samsoedien.com>",
+  "scripts": {
+    "build": "yarn build:types && yarn build:scripts",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline",
+    "clean": "rm -rf dist/* && rm -rf lib/*"
+  },
+  "peerDependencies": {
+    "react": ">= 16",
+    "react-dom": ">= 16",
+    "styled-components": ">= 5"
+  },
+  "dependencies": {
+    "@smdn/icons": "1.0.0",
+    "@smdn/shared": "1.0.0",
+    "@types/styled-components": "^4.4.3",
+    "enzyme": "^3.11.0",
+    "jest-styled-components": "^7.0.0",
+    "prop-types": "^15.7.2"
+  }
+}

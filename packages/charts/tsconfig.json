@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declarationDir": "lib",
+    "outDir": "lib",
+    "rootDir": "src",
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["lib", "test"],
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*", "types/**/*", "../../types/**/*"],
+  "references": [
+    {
+      "path": "../shared"
+    }
+  ]
+}
