@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Metric from './index'
 
 export default {
-  title: 'Components/Metric',
+  title: 'Charts/Metric',
   component: Metric,
   componentTitle: 'Component for user or product Metric',
   decorators: [withKnobs],

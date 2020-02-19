@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Sparkline from './index'
 
 export default {
-  title: 'Components/Sparkline',
+  title: 'Charts/Sparkline',
   component: Sparkline,
   componentTitle: 'Component for user or product Sparkline',
   decorators: [withKnobs],
