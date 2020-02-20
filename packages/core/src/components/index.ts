@@ -3,6 +3,7 @@ import Badge from './Badge'
 import Breadcrumbs from './Breadcrumbs'
 import Button from './Button'
 import Callout from './Callout'
+import Code from './Code'
 import Card from './Card'
 import Divider from './Divider'
 import Input from './Input'
@@ -21,6 +22,7 @@ export {
   Button,
   Callout,
   Card,
+  Code,
   Divider,
   Input,
   ListGroup,
