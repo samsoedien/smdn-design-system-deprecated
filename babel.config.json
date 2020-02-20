@@ -9,7 +9,9 @@
     "dist/",
     "*.d.ts",
     "__tests__",
-    "__mocks__"
+    "__mocks__",
+    "**/*.test.tsx",
+    "**/*.stories.tsx"
   ],
   "presets": ["@babel/env", "@babel/preset-react", "@babel/typescript"],
   "plugins": ["@babel/proposal-class-properties", "@babel/proposal-object-rest-spread"]

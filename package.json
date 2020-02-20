@@ -20,7 +20,7 @@
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build --parallel --stream",
     "build:production": "yarn lerna run build:scripts --parallel --stream",
-    "clean": "yarn lerna clean && lerna run --parallel clean",
+    "clean": "yarn lerna clean --yes && lerna run --parallel clean",
     "compile": "tsc --noEmit",
     "compile:watch": "yarn compile --watch",
     "start": "yarn lerna run start --stream",
