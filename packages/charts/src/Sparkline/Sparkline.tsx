@@ -16,7 +16,7 @@ export interface ISparklineProps {
 
 const Sparkline: React.FC<ISparklineProps> = ({ heading, value, unit }) => {
   return (
-    <StyledSparkline>
+    <StyledSparkline className="smdn-sparkline" data-test="sparkline-component">
       <div>{heading}</div>
       <Metric value={value} unit={unit} />
     </StyledSparkline>
