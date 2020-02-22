@@ -1,12 +1,23 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-interface IPageSideBar {}
+const StyledPageSideBar = styled.div``
 
-const PageSideBar: React.FC<IPageSideBar> = () => {
-  return <div className="smdn-page-side-bar" data-test="page-side-bar-component" />
+export interface IPageSideBar {
+  children: React.ReactNode
 }
 
-PageSideBar.propTypes = {}
+const PageSideBar: React.FC<IPageSideBar> = ({ children }) => {
+  return (
+    <StyledPageSideBar className="smdn-page-side-bar" data-test="page-side-bar-component">
+      {children}
+    </StyledPageSideBar>
+  )
+}
+
+PageSideBar.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 
 export default PageSideBar
