@@ -9,7 +9,7 @@
   "scripts": {
     "build": "yarn build:types && yarn build:scripts",
     "build:types": "tsc --emitDeclarationOnly",
-    "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline",
+    "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline --ignore **/*.test.tsx,**/*.stories.tsx",
     "clean": "rm -rf dist/* && rm -rf lib/*"
   },
   "peerDependencies": {
