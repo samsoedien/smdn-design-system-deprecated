@@ -22,5 +22,23 @@
     "declarationMap": true
   },
   "include": ["./packages/**/*"],
-  "exclude": ["**/node_modules/*", "**/*.stories.*"]
+  "exclude": ["**/node_modules/*", "**/*.stories.*"],
+  "files": [],
+  "references": [
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/charts"
+    },
+    {
+      "path": "packages/icons"
+    },
+    {
+      "path": "packages/layouts"
+    },
+    {
+      "path": "packages/shared"
+    }
+  ]
 }

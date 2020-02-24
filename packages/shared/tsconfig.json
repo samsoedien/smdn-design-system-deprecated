@@ -3,9 +3,10 @@
     "declarationDir": "lib",
     "outDir": "lib",
     "rootDir": "src",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["lib", "test", "node_modules", "typings"],
+  "exclude": ["lib", "tests", "**/*.test.*", "**/*.stories.*"],
   "extends": "../../tsconfig.json",
   "include": ["src/**/*"],
   "references": []

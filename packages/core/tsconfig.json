@@ -7,9 +7,10 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "declaration": true
+    "declaration": true,
+    "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["lib", "test"],
+  "exclude": ["lib", "tests", "**/*.test.*", "**/*.stories.*"],
   "extends": "../../tsconfig.json",
   "include": ["src/**/*"],
   "references": [

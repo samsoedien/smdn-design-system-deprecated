@@ -2,7 +2,7 @@
 
 exports[`Storyshots Charts/Chart Chart - Default 1`] = `
 <canvas
-  className="sc-AxhCb ccMvAG smdn-chart"
+  className="sc-AxjAm StDqN smdn-chart"
   data-test="chart-component"
   type="lineseries"
 />
@@ -10,7 +10,7 @@ exports[`Storyshots Charts/Chart Chart - Default 1`] = `
 
 exports[`Storyshots Charts/Metric Metric - Default 1`] = `
 <div
-  className="sc-AxhUy kMyssT smdn-metric"
+  className="sc-AxirZ ktnnZK smdn-metric"
   data-test="metric-component"
 >
   <span>
@@ -21,14 +21,14 @@ exports[`Storyshots Charts/Metric Metric - Default 1`] = `
 
 exports[`Storyshots Charts/Sparkline Sparkline - Default 1`] = `
 <div
-  className="sc-AxgMl bFfuHh smdn-sparkline"
+  className="sc-AxiKw jmqPVm smdn-sparkline"
   data-test="sparkline-component"
 >
   <div>
     summary
   </div>
   <div
-    className="sc-AxhUy kMyssT smdn-metric"
+    className="sc-AxirZ ktnnZK smdn-metric"
     data-test="metric-component"
   >
     <span>
@@ -40,7 +40,7 @@ exports[`Storyshots Charts/Sparkline Sparkline - Default 1`] = `
 
 exports[`Storyshots Components/Accordion Accordion - Default 1`] = `
 <div
-  className="sc-fzqBkg cifTAZ smdn-accordion"
+  className="sc-AxhCb ccMvAG smdn-accordion"
   data-test="accordion-component"
 >
   Accordion
@@ -50,7 +50,7 @@ exports[`Storyshots Components/Accordion Accordion - Default 1`] = `
 exports[`Storyshots Components/Avatar Avatar - Default 1`] = `
 <img
   alt="John"
-  className="sc-fzqPZZ ijMfzc smdn-avatar"
+  className="sc-AxhUy eEjeQE smdn-avatar"
   data-test="avatar-component"
   type="user"
 />
@@ -58,21 +58,21 @@ exports[`Storyshots Components/Avatar Avatar - Default 1`] = `
 
 exports[`Storyshots Components/Badge Badge - Default 1`] = `
 <span
-  className="sc-fzoxKX ja-DdBK smdn-badge"
+  className="sc-AxgMl fFPQpl smdn-badge"
   data-test="badge-component"
 />
 `;
 
 exports[`Storyshots Components/Breadcrumbs Breadcrumbs - Default 1`] = `
 <div
-  className="sc-fzoKki fatNHo smdn-breadcrumbs"
+  className="sc-AxheI fniENP smdn-breadcrumbs"
   data-test="breadcrumbs-component"
 />
 `;
 
 exports[`Storyshots Components/Button Button - Default 1`] = `
 <button
-  className="sc-fzoYkl cXbrPw smdn-b-button"
+  className="sc-Axmtr cElqcD smdn-b-button"
   data-test="button-component"
   onClick={[Function]}
   size="regular"
@@ -84,7 +84,7 @@ exports[`Storyshots Components/Button Button - Default 1`] = `
 
 exports[`Storyshots Components/Button Button - Loading 1`] = `
 <button
-  className="sc-fzoYkl eIDsBq smdn-b-button"
+  className="sc-Axmtr bOYGsl smdn-b-button"
   data-test="button-component"
   onClick={[Function]}
   size="regular"
@@ -96,7 +96,7 @@ exports[`Storyshots Components/Button Button - Loading 1`] = `
 
 exports[`Storyshots Components/Button Button - Primary 1`] = `
 <button
-  className="sc-fzoYkl UkEVb smdn-b-button"
+  className="sc-Axmtr gmqvgQ smdn-b-button"
   data-test="button-component"
   onClick={[Function]}
   size="regular"
@@ -108,7 +108,7 @@ exports[`Storyshots Components/Button Button - Primary 1`] = `
 
 exports[`Storyshots Components/Button Button - Secondary 1`] = `
 <button
-  className="sc-fzoYkl cXbrPw smdn-b-button"
+  className="sc-Axmtr cElqcD smdn-b-button"
   data-test="button-component"
   onClick={[Function]}
   size="regular"
@@ -121,7 +121,7 @@ exports[`Storyshots Components/Button Button - Secondary 1`] = `
 exports[`Storyshots Components/Button Button - Sizes 1`] = `
 Array [
   <button
-    className="sc-fzoYkl cCFBxD smdn-b-button"
+    className="sc-Axmtr hdHbzI smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="small"
@@ -130,7 +130,7 @@ Array [
     Small
   </button>,
   <button
-    className="sc-fzoYkl cXbrPw smdn-b-button"
+    className="sc-Axmtr cElqcD smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="regular"
@@ -139,7 +139,7 @@ Array [
     Regular
   </button>,
   <button
-    className="sc-fzoYkl eJdNYC smdn-b-button"
+    className="sc-Axmtr nGaoZ smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="large"
@@ -152,7 +152,7 @@ Array [
 
 exports[`Storyshots Components/Button Button - Tertiary 1`] = `
 <button
-  className="sc-fzoYkl dwrsoK smdn-b-button"
+  className="sc-Axmtr dJgKHV smdn-b-button"
   data-test="button-component"
   onClick={[Function]}
   size="regular"
@@ -165,7 +165,7 @@ exports[`Storyshots Components/Button Button - Tertiary 1`] = `
 exports[`Storyshots Components/Button Buttons 1`] = `
 Array [
   <button
-    className="sc-fzoYkl UkEVb smdn-b-button"
+    className="sc-Axmtr gmqvgQ smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="regular"
@@ -174,7 +174,7 @@ Array [
     Primary
   </button>,
   <button
-    className="sc-fzoYkl cXbrPw smdn-b-button"
+    className="sc-Axmtr cElqcD smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="regular"
@@ -183,7 +183,7 @@ Array [
     Secondary
   </button>,
   <button
-    className="sc-fzoYkl dwrsoK smdn-b-button"
+    className="sc-Axmtr dJgKHV smdn-b-button"
     data-test="button-component"
     onClick={[Function]}
     size="regular"
@@ -196,7 +196,7 @@ Array [
 
 exports[`Storyshots Components/Callout Callout - Default 1`] = `
 <div
-  className="sc-fzpkJw hwAyNc smdn-callout"
+  className="sc-AxmLO lkuNx smdn-callout"
   color="info"
   data-test="callout-component"
 >
@@ -206,7 +206,7 @@ exports[`Storyshots Components/Callout Callout - Default 1`] = `
 
 exports[`Storyshots Components/Card Card - Default 1`] = `
 <div
-  className="sc-fznzOf gEmGWT smdn-card"
+  className="sc-fzozJi kfDGsE smdn-card"
   color="white"
   data-test="card-component"
   elevation={1}
@@ -217,7 +217,7 @@ exports[`Storyshots Components/Card Card - Default 1`] = `
 
 exports[`Storyshots Components/CardContent Card Content - Default 1`] = `
 <section
-  className="sc-fznMnq jaPXIn smdn-card-content"
+  className="sc-fzoLsD xOHHP smdn-card-content"
   data-test="card-content-component"
 >
   Hello World
@@ -226,7 +226,7 @@ exports[`Storyshots Components/CardContent Card Content - Default 1`] = `
 
 exports[`Storyshots Components/CardFooter Card Footer - Default 1`] = `
 <footer
-  className="sc-fzoant gHvbhb smdn-card-footer"
+  className="sc-fzpans hiluDH smdn-card-footer"
   data-test="card-footer-component"
 >
   Hello World
@@ -235,7 +235,7 @@ exports[`Storyshots Components/CardFooter Card Footer - Default 1`] = `
 
 exports[`Storyshots Components/CardHeader Card Header - Default 1`] = `
 <header
-  className="sc-fzomME kwpkdO smdn-card-header"
+  className="sc-fzplWN hZqmHx smdn-card-header"
   data-test="card-header-component"
 >
   Hello World
@@ -244,7 +244,7 @@ exports[`Storyshots Components/CardHeader Card Header - Default 1`] = `
 
 exports[`Storyshots Components/Code Code - Default 1`] = `
 <code
-  className="sc-fzqAbL zYCzw smdn-code"
+  className="sc-fznyAO hdDwJr smdn-code"
   data-test="code-component"
 >
   Code
@@ -253,15 +253,15 @@ exports[`Storyshots Components/Code Code - Default 1`] = `
 
 exports[`Storyshots Components/Combobox Combobox - Default 1`] = `
 <div
-  className="sc-fzoYHE jFJDaF smdn-combobox"
+  className="sc-fzqBZW kvyVsY smdn-combobox"
   data-test="combobox-component"
 >
   <div
-    className="sc-fzoydu kUYJSZ smdn-combobox-input"
+    className="sc-fznZeY fLrtke smdn-combobox-input"
     data-test="combobox-input-component"
   >
     <span
-      className="sc-fzqMAW fcsxmK smdn-tag"
+      className="sc-fznKkj bOuGvM smdn-tag"
       color="#efefef"
       data-test="tag-component"
     >
@@ -271,7 +271,7 @@ exports[`Storyshots Components/Combobox Combobox - Default 1`] = `
     </span>
   </div>
   <div
-    className="sc-fzoJMP gAzsmC smdn-combobox-option-list"
+    className="sc-fzokOt gcdrkZ smdn-combobox-option-list"
     data-test="combobox-option-list-component"
   />
 </div>
@@ -279,7 +279,7 @@ exports[`Storyshots Components/Combobox Combobox - Default 1`] = `
 
 exports[`Storyshots Components/Comment Comment - Default 1`] = `
 <div
-  className="sc-fzpkqZ kmZxWu smdn-comment"
+  className="sc-fzqNJr cPhlSZ smdn-comment"
   data-test="comment-component"
 >
   Comment
@@ -288,7 +288,7 @@ exports[`Storyshots Components/Comment Comment - Default 1`] = `
 
 exports[`Storyshots Components/Dialog Dialog - Default 1`] = `
 <div
-  className="sc-fznAgC dbXiMN smdn-dialog"
+  className="sc-fzoyAV lgNqAT smdn-dialog"
   data-test="dialog-component"
 >
   Dialog
@@ -297,14 +297,22 @@ exports[`Storyshots Components/Dialog Dialog - Default 1`] = `
 
 exports[`Storyshots Components/Divider Divider - Default 1`] = `
 <hr
-  className="sc-fznLPX jCbNnQ smdn-divider"
+  className="sc-fzoLag gqDFwP smdn-divider"
   data-test="divider-component"
+  orientation="horizontal"
+/>
+`;
+
+exports[`Storyshots Components/Dropdown Dropdown - Default 1`] = `
+<div
+  className="sc-fzoXzr bvUUDN smdn-dropdown"
+  data-test="dropdown-component"
 />
 `;
 
 exports[`Storyshots Components/Input Input - Default 1`] = `
 <input
-  className="sc-fzoaKM iONrUQ smdn-input"
+  className="sc-fzpjYC dxpALw smdn-input"
   data-test="input-component"
   name="name"
   onChange={[Function]}
@@ -315,7 +323,7 @@ exports[`Storyshots Components/Input Input - Default 1`] = `
 
 exports[`Storyshots Components/ListGroup ListGroup - Default 1`] = `
 <ul
-  className="sc-fzomuh eGtsA-d smdn-list-group"
+  className="sc-fznxsB fvMaWZ smdn-list-group"
   data-test="list-group-component"
 >
   List Group
@@ -324,7 +332,7 @@ exports[`Storyshots Components/ListGroup ListGroup - Default 1`] = `
 
 exports[`Storyshots Components/Spacer Spacer - Default 1`] = `
 <br
-  className="sc-fzqAui jAAClJ smdn-spacer"
+  className="sc-fznJRM VPjAq smdn-spacer"
   data-test="spacer-component"
   size="sm"
 />
@@ -332,25 +340,25 @@ exports[`Storyshots Components/Spacer Spacer - Default 1`] = `
 
 exports[`Storyshots Components/Table Table - Default 1`] = `
 <table
-  className="sc-fzqMdD haaTSx smdn-table"
+  className="sc-fznWqX cVCKjh smdn-table"
   data-test="table-component"
 >
   <thead
-    className="sc-fzowVh gSfeHE smnd-table-heade"
+    className="sc-fzoiQi jkvegY smnd-table-heade"
     data-test="table-head-component"
   >
     <tr
-      className="sc-fzoJus cXGpQF smdn-table-row"
+      className="sc-fzqARJ iQINDi smdn-table-row"
       data-test="table-row-component"
     >
       <th
-        className="sc-fzoVTD fwKNiT smdn-table-cell"
+        className="sc-fzqNqU hFpwJZ smdn-table-cell"
         data-test="table-cell-component"
       >
         Heading 1
       </th>
       <th
-        className="sc-fzoVTD fwKNiT smdn-table-cell"
+        className="sc-fzqNqU hFpwJZ smdn-table-cell"
         data-test="table-cell-component"
       >
         Heading 2
@@ -358,38 +366,38 @@ exports[`Storyshots Components/Table Table - Default 1`] = `
     </tr>
   </thead>
   <tbody
-    className="sc-fznyYp ePFTkY smdn-table-body"
+    className="sc-fzoNJl kUMlmZ smdn-table-body"
     data-test="table-body-component"
   >
     <tr
-      className="sc-fzoJus cXGpQF smdn-table-row"
+      className="sc-fzqARJ iQINDi smdn-table-row"
       data-test="table-row-component"
     >
       <td
-        className="sc-fzpisO ciFKdv smdn-table-cell"
+        className="sc-fzoyTs crHzLr smdn-table-cell"
         data-test="table-cell-component"
       >
         Body 1
       </td>
       <td
-        className="sc-fzpisO ciFKdv smdn-table-cell"
+        className="sc-fzoyTs crHzLr smdn-table-cell"
         data-test="table-cell-component"
       >
         Body 2
       </td>
     </tr>
     <tr
-      className="sc-fzoJus cXGpQF smdn-table-row"
+      className="sc-fzqARJ iQINDi smdn-table-row"
       data-test="table-row-component"
     >
       <td
-        className="sc-fzpisO ciFKdv smdn-table-cell"
+        className="sc-fzoyTs crHzLr smdn-table-cell"
         data-test="table-cell-component"
       >
         Body 3
       </td>
       <td
-        className="sc-fzpisO ciFKdv smdn-table-cell"
+        className="sc-fzoyTs crHzLr smdn-table-cell"
         data-test="table-cell-component"
       >
         Body 4
@@ -401,16 +409,21 @@ exports[`Storyshots Components/Table Table - Default 1`] = `
 
 exports[`Storyshots Components/Tabs Tabs - Default 1`] = `
 <div
-  className="sc-fznLxA kCDRyF smdn-tabs"
+  className="sc-fzpmMD fpVDsO smdn-tabs"
   data-test="tabs-component"
 >
-  Tabs
+  <div
+    className="sc-fzoXWK cylrVd smdn-tab"
+    data-test="tab-component"
+  >
+    Tab
+  </div>
 </div>
 `;
 
 exports[`Storyshots Components/Tag Tag - Default 1`] = `
 <span
-  className="sc-fzqMAW fcsxmK smdn-tag"
+  className="sc-fznKkj bOuGvM smdn-tag"
   color="#efefef"
   data-test="tag-component"
 >
@@ -423,7 +436,7 @@ exports[`Storyshots Components/Tag Tag - Default 1`] = `
 exports[`Storyshots Components/Textarea Textarea - Default 1`] = `
 <textarea
   autofocus={false}
-  className="sc-fznXWL fxhNWV smdn-textarea"
+  className="sc-fznxKY AhbpA smdn-textarea"
   cols={50}
   data-test="textarea-component"
   disabled={false}
@@ -437,7 +450,7 @@ exports[`Storyshots Components/Textarea Textarea - Default 1`] = `
 
 exports[`Storyshots Components/Toast Toast - Default 1`] = `
 <div
-  className="sc-fzokvW kJbQFf smdn-toast"
+  className="sc-fznMAR DQQGK smdn-toast"
   color="info"
   data-test="toast-component"
 >
@@ -447,7 +460,7 @@ exports[`Storyshots Components/Toast Toast - Default 1`] = `
 
 exports[`Storyshots Components/Tooltip Tooltip - Default 1`] = `
 <div
-  className="sc-fzqzlV eoCMvb smdn-tooltip"
+  className="sc-fznWOq iMvrRh smdn-tooltip"
   data-test="tooltip-component"
 >
   Hello world
@@ -456,7 +469,7 @@ exports[`Storyshots Components/Tooltip Tooltip - Default 1`] = `
 
 exports[`Storyshots Layouts/HeroBanner HeroBanner - Default 1`] = `
 <div
-  className="sc-fznzqM iQOVNS smdn-hero-banner"
+  className="sc-fzolEj LedzO smdn-hero-banner"
   data-test="hero-banner-component"
 >
   Hello world
@@ -465,7 +478,7 @@ exports[`Storyshots Layouts/HeroBanner HeroBanner - Default 1`] = `
 
 exports[`Storyshots Layouts/Page Page - Default 1`] = `
 <div
-  className="sc-fznOgF kUlBsE smdn-page"
+  className="sc-fzqBkg cStOJT smdn-page"
   data-test="page-component"
 >
   Hello world
@@ -474,7 +487,7 @@ exports[`Storyshots Layouts/Page Page - Default 1`] = `
 
 exports[`Storyshots Layouts/PageContent PageContent - Default 1`] = `
 <div
-  className="sc-fznYue djsYXx smdn-page-content"
+  className="sc-fzqPZZ hAocsL smdn-page-content"
   data-test="page-content-component"
 >
   Hello world
@@ -483,7 +496,7 @@ exports[`Storyshots Layouts/PageContent PageContent - Default 1`] = `
 
 exports[`Storyshots Layouts/PageFooter PageFooter - Default 1`] = `
 <footer
-  className="sc-fzonjX dzycXD smdn-page-footer"
+  className="sc-fzoxKX kSYBUE smdn-page-footer"
   data-test="page-footer-component"
 >
   Hello world
@@ -492,7 +505,7 @@ exports[`Storyshots Layouts/PageFooter PageFooter - Default 1`] = `
 
 exports[`Storyshots Layouts/PageHeader PageHeader - Default 1`] = `
 <header
-  className="sc-fzqzEs ejSgor smdn-page-header"
+  className="sc-fzoKki fatNHo smdn-page-header"
   data-test="page-header-component"
 >
   Hello world
@@ -501,7 +514,7 @@ exports[`Storyshots Layouts/PageHeader PageHeader - Default 1`] = `
 
 exports[`Storyshots Layouts/PageSideBar PageSideBar - Default 1`] = `
 <div
-  className="sc-fzqOul JAzeZ smdn-page-side-bar"
+  className="sc-fzoYkl iMSPiv smdn-page-side-bar"
   data-test="page-side-bar-component"
 >
   Hello world
