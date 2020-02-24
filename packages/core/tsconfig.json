@@ -11,8 +11,11 @@
   },
   "exclude": ["lib", "test"],
   "extends": "../../tsconfig.json",
-  "include": ["src/**/*", "types/**/*", "../../types/**/*"],
+  "include": ["src/**/*"],
   "references": [
+    {
+      "path": "../charts"
+    },
     {
       "path": "../layouts"
     },

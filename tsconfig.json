@@ -18,11 +18,9 @@
     "strict": true,
     "target": "es2015",
     "useDefineForClassFields": false,
-    "declarationDir": "./lib",
-    "outDir": "./lib",
     "composite": true,
     "declarationMap": true
   },
   "include": ["./packages/**/*"],
-  "exclude": ["./node_modules/*", "**/*.stories.*"]
+  "exclude": ["**/node_modules/*", "**/*.stories.*"]
 }

@@ -5,8 +5,8 @@
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
-  "exclude": ["lib", "test"],
+  "exclude": ["lib", "test", "node_modules", "typings"],
   "extends": "../../tsconfig.json",
-  "include": ["src/**/*", "types/**/*", "../../types/**/*"],
+  "include": ["src/**/*"],
   "references": []
 }

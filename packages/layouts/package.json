@@ -7,9 +7,9 @@
   "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/layouts",
   "author": "Samsoedien <contact@samsoedien.com>",
   "scripts": {
-    "build": "yarn build:types && yarn build:scripts",
-    "build:types": "tsc --emitDeclarationOnly",
+    "build": "yarn build:scripts && yarn build:types",
     "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline --ignore **/*.test.tsx,**/*.stories.tsx",
+    "build:types": "tsc --emitDeclarationOnly",
     "clean": "rm -rf dist/* && rm -rf lib/*"
   },
   "peerDependencies": {
