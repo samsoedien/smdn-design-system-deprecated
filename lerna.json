@@ -1,6 +1,8 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.1.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -9,7 +11,10 @@
       "registry": "http://localhost:4873",
       "access": "public",
       "npmClient": "yarn",
-      "allowBranch": ["master", "feature/*"]
+      "allowBranch": [
+        "master",
+        "feature/*"
+      ]
     }
   }
 }
