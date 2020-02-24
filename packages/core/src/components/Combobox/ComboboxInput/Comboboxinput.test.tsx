@@ -4,7 +4,9 @@ import { shallow } from 'enzyme'
 import { findByTestAttr } from '@smdn/shared'
 import ComboboxInput from './index'
 
-const defaultProps = {}
+const defaultProps = {
+  appliedFilterOptions: ['filter 1', 'filter 2'],
+}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }

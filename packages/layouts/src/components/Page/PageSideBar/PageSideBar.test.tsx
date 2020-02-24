@@ -8,7 +8,7 @@ const defaultProps = {}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<PageSideBar {...setupProps} />)
+  return shallow(<PageSideBar {...setupProps}>PageSideBar</PageSideBar>)
 }
 
 describe('PageSideBarComponent', () => {

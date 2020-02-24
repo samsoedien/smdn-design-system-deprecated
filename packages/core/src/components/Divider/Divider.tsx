@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledDivider = styled.hr``
+const StyledDivider = styled.hr<Partial<IDividerProps>>``
 
 export type Orientation = 'horizontal' | 'vertical'
 
@@ -13,7 +13,7 @@ export interface IDividerProps {
 
 const Divider: React.FC<IDividerProps> = ({ label, orientation }) => {
   return (
-    <StyledDivider orientations={orientation} className="smdn-divider" data-test="divider-component">
+    <StyledDivider orientation={orientation} className="smdn-divider" data-test="divider-component">
       {label && <span>label</span>}
     </StyledDivider>
   )

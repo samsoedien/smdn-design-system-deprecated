@@ -8,7 +8,7 @@ const defaultProps = {}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<Accordion {...setupProps} />)
+  return shallow(<Accordion {...setupProps}>Accordion</Accordion>)
 }
 
 describe('AccordionComponent', () => {

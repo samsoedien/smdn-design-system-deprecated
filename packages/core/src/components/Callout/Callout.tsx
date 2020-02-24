@@ -16,7 +16,7 @@ export type Color = 'info' | 'success' | 'warning' | 'danger'
 
 export interface ICalloutProps {
   color?: Color
-  heading: string
+  heading?: string
   isCondensed?: boolean
   children: React.ReactNode
 }
