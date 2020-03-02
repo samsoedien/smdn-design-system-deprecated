@@ -5,6 +5,32 @@ import styled, { css } from 'styled-components'
 const StyledCallout = styled.div<Partial<ICalloutProps>>`
   width: 100%;
   font-size: 14px;
+  padding: 6px 9px;
+
+  ${props =>
+    props.color === 'info' &&
+    css`
+      border-left: 3px solid darkgrey;
+      background-color: rgba(76, 182, 251, 0.15);
+    `};
+  ${props =>
+    props.color === 'success' &&
+    css`
+      border-left: 3px solid blue;
+      background-color: lightblue;
+    `};
+  ${props =>
+    props.color === 'warning' &&
+    css`
+      border-left: 3px solid yellow;
+      background-color: lightyellow;
+    `};
+  ${props =>
+    props.color === 'danger' &&
+    css`
+      border-left: 3px solid darkred;
+      background-color: red;
+    `};
   ${props =>
     props.isCondensed &&
     css`
