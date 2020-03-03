@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
+import { TokenColorBaseBlue500 } from '@smdn/tokens'
+
 const StyledButton = styled.button<IButtonProps>`
   /* height: ${props => props.size}; */
   min-width: 32px;
@@ -21,7 +23,7 @@ const StyledButton = styled.button<IButtonProps>`
   ${props =>
     props.appearance === 'primary' &&
     css`
-      background-color: steelblue;
+      background-color: ${TokenColorBaseBlue500};
       color: #fff;
       &:hover,
       &:focus {
