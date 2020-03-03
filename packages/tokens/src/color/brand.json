@@ -1,0 +1,7 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "{alias.color.brand.primary}" }
+    }
+  }
+}

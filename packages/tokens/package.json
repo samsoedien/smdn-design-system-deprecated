@@ -1,0 +1,17 @@
+{
+  "name": "@smdn/tokens",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared",
+  "author": "Samsoedien <contact@samsoedien.com>",
+  "scripts": {
+    "build": "yarn build:tokens",
+    "build:tokens": "style-dictionary build --config ./style-dictionary.config.json",
+    "clean": "rm -rf dist/* && rm -rf lib/*"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.8.3"
+  }
+}

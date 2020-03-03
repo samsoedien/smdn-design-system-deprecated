@@ -1,0 +1,10 @@
+{
+  "alias": {
+    "color": {
+      "brand": {
+        "primary": "#4CB6FB",
+        "secondary": "#EFEFEF"
+      }
+    }
+  }
+}
