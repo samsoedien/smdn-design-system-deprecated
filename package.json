@@ -17,12 +17,12 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "yarn clean && yarn build && yarn storybook",
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build --stream",
     "clean": "yarn lerna clean --yes && lerna run --parallel clean",
     "compile": "tsc --noEmit",
     "compile:watch": "yarn compile --watch",
-    "start": "yarn lerna run start --stream",
     "lint": "yarn lint:scripts && yarn lint:styles",
     "lint:scripts": "eslint ./packages --ext js,jsx,ts,tsx",
     "lint:styles": "stylelint './packages/**/*.tsx'",
