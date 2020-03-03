@@ -1,10 +1,10 @@
 {
-  "source": ["src/**/*.json"],
+  "source": ["src/properties/**/*.json"],
   "platforms": {
     "web/js": {
       "transformGroup": "js",
       "prefix": "token",
-      "buildPath": "dist/web/es6/",
+      "buildPath": "lib/web/es6/",
       "files": [
         {
           "destination": "tokens.js",
@@ -14,7 +14,7 @@
     },
     "web/scss": {
       "transformGroup": "scss",
-      "buildPath": "dist/web/scss/",
+      "buildPath": "lib/web/scss/",
       "prefix": "token",
       "files": [
         {
@@ -23,9 +23,19 @@
         }
       ]
     },
+    "web/json": {
+      "transformGroup": "web",
+      "buildPath": "lib/web/json/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/flat"
+        }
+      ]
+    },
     "android": {
       "transformGroup": "android",
-      "buildPath": "dist/android/",
+      "buildPath": "lib/android/",
       "prefix": "token",
       "files": [
         {
@@ -40,7 +50,7 @@
     },
     "ios": {
       "transformGroup": "ios",
-      "buildPath": "dist/ios/",
+      "buildPath": "lib/ios/",
       "prefix": "token",
       "files": [
         {
@@ -91,7 +101,7 @@
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "dist/ios-swift/",
+      "buildPath": "lib/ios-swift/",
       "prefix": "token",
       "files": [
         {
@@ -104,7 +114,7 @@
     },
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
-      "buildPath": "dist/ios-swift/",
+      "buildPath": "lib/ios-swift/",
       "prefix": "token",
       "files": [
         {

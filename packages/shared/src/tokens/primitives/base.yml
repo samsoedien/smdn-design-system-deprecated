@@ -1,4 +1,0 @@
-imports:
-  - ./color-palettes.yml
-  - ./opacity.yml
-  - ./font-family.yml
