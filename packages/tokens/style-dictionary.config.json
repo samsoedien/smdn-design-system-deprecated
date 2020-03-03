@@ -1,10 +1,10 @@
 {
   "source": ["src/**/*.json"],
   "platforms": {
-    "js": {
+    "web/js": {
       "transformGroup": "js",
       "prefix": "token",
-      "buildPath": "dist/es6/",
+      "buildPath": "dist/web/es6/",
       "files": [
         {
           "destination": "tokens.js",
@@ -12,9 +12,9 @@
         }
       ]
     },
-    "scss": {
+    "web/scss": {
       "transformGroup": "scss",
-      "buildPath": "dist/scss/",
+      "buildPath": "dist/web/scss/",
       "prefix": "token",
       "files": [
         {
