@@ -18,11 +18,11 @@
     "strict": true,
     "target": "es2015",
     "useDefineForClassFields": false,
-    "composite": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "typeRoots": ["**/node_modules/@types"]
   },
   "include": ["./packages/**/*"],
-  "exclude": ["**/node_modules/*", "**/*.stories.*"],
+  "exclude": ["**/node_modules/*", "**/*.stories.*", "**/*.test.*"],
   "files": [],
   "references": [
     {

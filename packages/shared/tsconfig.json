@@ -4,6 +4,7 @@
     "outDir": "lib",
     "rootDir": "src",
     "emitDeclarationOnly": true,
+    "composite": true,
     "typeRoots": ["./node_modules/@types"]
   },
   "exclude": ["lib", "tests", "**/*.test.*", "**/*.stories.*"],

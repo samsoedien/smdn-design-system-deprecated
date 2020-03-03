@@ -8,6 +8,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "declaration": true,
+    "composite": true,
     "typeRoots": ["./node_modules/@types"]
   },
   "exclude": ["lib", "tests", "**/*.test.*", "**/*.stories.*"],
