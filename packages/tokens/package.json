@@ -2,7 +2,7 @@
   "name": "@smdn/tokens",
   "version": "1.0.0",
   "main": "lib/web/es6/tokens.js",
-  "types": "lib/index.d.ts",
+  "types": "typings/index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens",
   "author": "Samsoedien <contact@samsoedien.com>",
