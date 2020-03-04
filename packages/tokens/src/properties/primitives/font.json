@@ -4,35 +4,40 @@
     "size": {
       "base": { "value": "1" },
       "1": { 
-        "value": "0.625", 
-        "comment": "font size 10px - recommended for dense areas such as data visualisation tick marks"
+        "value": "10",
+        "comment": "font size 0.625rem/10px - recommended for dense areas such as data visualisation tick marks"
       },
       "2": { 
-        "value": "0.6875" ,
-        "comment": "font size 11px - recommended for list-items data-tables"
+        "value": "11",
+        "comment": "font size 0.6875rem/11px - recommended for list-items data-tables"
       },
       "3": { 
-        "value": "0.75", 
-        "comment": "font size 12px - recommended for actions or copy with less emphasis such as the side-toolbar"
+        "value": "12", 
+        "comment": "font size 0.75rem/12px - recommended for actions or copy with less emphasis such as the side-toolbar"
       },
       "4": { 
-        "value": "0.875",
-        "comment": "font size 14px - recommended for copy that dunction as main content"
+        "value": "14",
+        "comment": "font size 0.875rem/14px - recommended for copy that dunction as main content"
       },
       "5": { 
-        "value": "1.125",
-        "comment": "font size 18px - recommended for headings"
+        "value": "18",
+        "comment": "font size 1.125rem/18px - recommended for headings"
       },
       "6": { 
-        "value": "1.5",
-        "comment": "font size 24px - recommended for large heading or metrics"
+        "value": "24",
+        "comment": "font size 1.5rem/24px - recommended for large heading or metrics"
       },
       "7": { 
-        "value": "2.25",
-        "comment": "font size 36px - recommended for metrics"
+        "value": "36",
+        "comment": "font size 2.25rem/36px - recommended for metrics"
       }
     },
-    "weight": {},
+    "weight": {
+      "base": {"value": "600"},
+      "bold": {"value": "400"},
+      "extrabold": {"value": "700"},
+      "black": {"value": "800"}
+    },
     "line-height": {
       "heading": {},
       "reset": {},

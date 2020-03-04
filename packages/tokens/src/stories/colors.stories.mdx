@@ -1,11 +1,48 @@
-import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks'
-import { TokenColorBaseBlue500, TokenColorBaseLightBlue500 } from '../../lib/web/es6/tokens'
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+import {
+  TokenColorBrandPrimary,
+  TokenColorBrandSecondary,
+  TokenColorBrandTertiary,
+  TokenColorBrandInfo,
+  TokenColorBrandSuccess,
+  TokenColorBrandWarning,
+  TokenColorBrandDanger,
+  TokenColorBrandTransparentBase,
+} from '../../dist/es6/tokens';
 
 <Meta title="Tokens/Colors" />
 
 # Colors
 
 <ColorPalette>
-  <ColorItem title="TokenColorBaseBlue500" subtitle="Base Blue" colors={[TokenColorBaseBlue500]} />
-  <ColorItem title="TokenColorBaseLightBlue500" subtitle="Light Blue" colors={[TokenColorBaseLightBlue500]} />
+  <ColorItem
+    title="TokenColorBrandPrimary"
+    subtitle="TokenColorBrandPrimary"
+    colors={[TokenColorBrandPrimary]}
+  />
+  <ColorItem
+    title="TokenColorBrandTransparentBase"
+    subtitle="TokenColorBrandTransparentBase"
+    colors={[TokenColorBrandTransparentBase]}
+  />
+  <ColorItem
+    title="TokenColorBrandInfo"
+    subtitle="TokenColorBrandInfo"
+    colors={[TokenColorBrandInfo]}
+  />
+  <ColorItem
+    title="TokenColorBrandSuccess"
+    subtitle="TokenColorBrandSuccess"
+    colors={[TokenColorBrandSuccess]}
+  />
+  <ColorItem
+    title="TokenColorBrandWarning"
+    subtitle="TokenColorBrandWarning"
+    colors={[TokenColorBrandWarning]}
+  />
+  <ColorItem
+    title="TokenColorBrandDanger"
+    subtitle="TokenColorBrandDanger"
+    colors={[TokenColorBrandDanger]}
+  />
 </ColorPalette>

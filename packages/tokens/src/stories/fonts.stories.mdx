@@ -1,0 +1,33 @@
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+
+import { 
+  TokenFontSize1,
+  TokenFontSize2,
+  TokenFontSize3,
+  TokenFontSize4,
+  TokenFontSize5,
+  TokenFontSize6,
+  TokenFontSize7,
+  TokenFontWeightRegular,
+} from '../../dist/es6/tokens';
+
+<Meta title="Tokens/Typography" />
+
+# Typography
+
+**Font:** Lato
+
+**Weights:** 400(regular), 700(bold), 800(extrabold), 900(black)
+
+<Typeset
+  fontSizes={[
+    Number(TokenFontSize1),
+    Number(TokenFontSize2),
+    Number(TokenFontSize3),
+    Number(TokenFontSize4),
+    Number(TokenFontSize5),
+    Number(TokenFontSize6),
+    Number(TokenFontSize7)
+  ]}
+  fontWeight={TokenFontWeightRegular}
+/>
