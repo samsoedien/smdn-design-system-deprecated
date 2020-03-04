@@ -20,6 +20,7 @@
     "start": "yarn clean && yarn build && yarn storybook",
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build --stream",
+    "build:tokens": "yarn lerna run build:tokens",
     "clean": "yarn lerna clean --yes && lerna run --parallel clean",
     "compile": "tsc --noEmit --watch",
     "lint": "yarn lint:scripts && yarn lint:styles",

@@ -1,13 +1,13 @@
 {
   "color": {
-    "background": {
+    "brand": {
       "button": {
         "primary": {
-          "base": { "value": "{color.brand.primary.value}" },
-          "active": { "value": "" },
-          "disabled": { "value": "" },
-          "hover": { "value": "" },
-          "focus": { "value": "" }
+          "base": { "value": "{aliases.PALETTE_BLUE_35}" },
+          "active": { "value": "{aliases.PALETTE_BLUE_55}" },
+          "disabled": { "value": "{aliases.PALETTE_BLUE_05}" },
+          "hover": { "value": "{aliases.PALETTE_BLUE_45}" },
+          "focus": { "value": "{aliases.PALETTE_BLUE_55}" }
         },
         "secondary": {
           "base": { "value": "{aliases.PALETTE_COOL_GREY_10}" },
