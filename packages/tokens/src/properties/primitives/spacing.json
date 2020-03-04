@@ -1,0 +1,12 @@
+{
+  "spacing": {
+    "none": { "value": 0 },
+    "xx-small": { "value": "3px" },
+    "x-small": { "value": "6px" },
+    "small": { "value": "12px" },
+    "medium": { "value": "24px" },
+    "large": { "value": "36px" },
+    "x-large": { "value": "48px" },
+    "xx-large": { "value": "96px" }
+  }
+}

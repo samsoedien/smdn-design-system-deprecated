@@ -1,0 +1,7 @@
+{
+  "shadow": {
+    "small": { "value": "0px 12px 12px rgba(0, 0, 0, 0.05)" },
+    "medium": { "value": "0px 18px 18px rgba(0, 0, 0, 0.1)" },
+    "large": { "value": "0px 24px 24px rgba(0, 0, 0, 0.15)" }
+  }
+}

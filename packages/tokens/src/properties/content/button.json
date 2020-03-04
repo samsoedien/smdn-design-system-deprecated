@@ -1,0 +1,30 @@
+{
+  "color": {
+    "background": {
+      "button": {
+        "primary": {
+          "base": { "value": "{color.brand.primary.value}" },
+          "active": { "value": "" },
+          "disabled": { "value": "" },
+          "hover": { "value": "" },
+          "focus": { "value": "" }
+        },
+        "secondary": {
+          "base": { "value": "{aliases.PALETTE_COOL_GREY_10}" },
+          "active": { "value": "{aliases.PALETTE_BLUE_35}" },
+          "disabled": { "value": "{aliases.PALETTE_BLUE_35}" }
+        },
+        "tertiary": {
+          "base": { "value": "{aliases.PALETTE_BLUE_35}" },
+          "active": { "value": "{aliases.PALETTE_BLUE_35}" },
+          "disabled": { "value": "{aliases.PALETTE_BLUE_35}" }
+        },
+        "transparent": {
+          "base": { "value": "{aliases.WHITE_TRANSPARENT_50}" },
+          "active": { "value": "{aliases.PALETTE_BLUE_35}" },
+          "disabled": { "value": "{aliases.PALETTE_BLUE_35}" }
+        }
+      }
+    }
+  }
+}

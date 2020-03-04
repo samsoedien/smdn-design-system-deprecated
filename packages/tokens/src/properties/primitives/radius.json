@@ -1,0 +1,10 @@
+{
+  "size": {
+    "radius": {
+      "circle": { "value": "50%" },
+      "large": { "value": "0.75" },
+      "medium": { "value": "0.375" },
+      "small": { "value": "0.1875" }
+    }
+  }
+}

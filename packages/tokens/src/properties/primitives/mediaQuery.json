@@ -1,0 +1,12 @@
+{
+  "media-query": {
+    "device-width": {
+      "x-small": { "value": "320px" },
+      "small": { "value": "576px" },
+      "medium": { "value": "858px" },
+      "large": { "value": "992px" },
+      "x-large": { "value": "1220px" },
+      "xx-large": { "value": "1600px" }
+    }
+  }
+}
