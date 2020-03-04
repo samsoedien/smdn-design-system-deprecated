@@ -2,7 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
-import { TokenColorBaseBlue500 } from '@smdn/tokens'
+import {
+  TokenColorBrandButtonPrimaryBase,
+  TokenColorBrandButtonPrimaryHover,
+  TokenColorBrandButtonPrimaryDisabled,
+} from '@smdn/tokens'
 
 const StyledButton = styled.button<IButtonProps>`
   /* height: ${props => props.size}; */
@@ -23,12 +27,16 @@ const StyledButton = styled.button<IButtonProps>`
   ${props =>
     props.appearance === 'primary' &&
     css`
-      background-color: ${TokenColorBaseBlue500};
+      background-color: ${TokenColorBrandButtonPrimaryBase};
       color: #fff;
       &:hover,
       &:focus {
-        background-color: #3f76a3;
+        background-color: ${TokenColorBrandButtonPrimaryHover};
         transition: 0.2s;
+      }
+      ,
+      &[disabled] {
+        background-color: ${TokenColorBrandButtonPrimaryDisabled};
       }
     `};
   ${props =>
@@ -76,11 +84,12 @@ export interface IButtonProps {
   size?: Size
   isLoading?: boolean
   type?: any
+  disabled?: boolean
   children: React.ReactNode
   onClick?: () => void
 }
 
-const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, children }) => {
+const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, disabled, children }) => {
   const onClickHandler = () => console.log('clicked')
   return (
     <StyledButton
@@ -88,6 +97,7 @@ const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, chi
       size={size}
       isLoading={isLoading}
       type={type || 'submit'}
+      disabled={disabled}
       onClick={() => onClickHandler()}
       className="smdn-b-button"
       data-test="button-component"
@@ -102,6 +112,7 @@ Button.defaultProps = {
   size: 'regular',
   isLoading: false,
   type: 'submit',
+  disabled: false,
 }
 
 Button.propTypes = {
@@ -109,6 +120,7 @@ Button.propTypes = {
   size: PropTypes.oneOf<Size>(['regular', 'small', 'large']),
   isLoading: PropTypes.bool,
   type: PropTypes.string,
+  disabled: PropTypes.bool,
   children: PropTypes.node.isRequired,
 }
 

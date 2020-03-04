@@ -76,3 +76,9 @@ export const LoadingButton = () => <Button isLoading={boolean('loading', true)}>
 LoadingButton.story = {
   name: 'Button - Loading',
 }
+
+export const DisabledButton = () => <Button disabled>Disabled</Button>
+
+DisabledButton.story = {
+  name: 'Button - Disabled',
+}
