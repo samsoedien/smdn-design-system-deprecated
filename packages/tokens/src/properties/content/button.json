@@ -21,8 +21,8 @@
         },
         "transparent": {
           "base": { "value": "{aliases.WHITE_TRANSPARENT_50}" },
-          "active": { "value": "{aliases.PALETTE_BLUE_35}" },
-          "disabled": { "value": "{aliases.PALETTE_BLUE_35}" }
+          "active": { "value": "{aliases.WHITE_TRANSPARENT_60}" },
+          "disabled": { "value": "{aliases.WHITE_TRANSPARENT_30}" }
         }
       }
     }

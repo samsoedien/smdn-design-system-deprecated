@@ -1,5 +1,12 @@
 {
-  "duration": {},
+  "duration": {
+    "instantly": { "value": "aliases.DURATION_INSTANTLY" },
+    "immediately": { "value": "aliases.DURATION_IMMEDIATELY" },
+    "quickly": { "value": "aliases.DURATION_SLOWLY" },
+    "promptly": { "value": "aliases.DURATION_PROMPTLY" },
+    "slowy": { "value": "aliases.DURATION_SLOWLY" },
+    "paused": { "value": "aliases.DURATION_PAUSED" }
+  },
   "transition": {
     "easing": { "value": "cubic-bezier(0.77, 0, 0.175, 1)" }
   }

@@ -1,9 +1,16 @@
 {
   "z-index": {
-    "100": { "value": "100" },
-    "200": { "value": "200" },
-    "400": { "value": "400" },
-    "800": { "value": "800" },
-    "1600": { "value": "1600" }
+    "default": { "value": "1" },
+    "docked": { "value": "4" },
+    "sticky": { "value": "100" },
+    "popup": { "value": "5000" },
+    "dialog": { "value": "6000" },
+    "dropdown": { "value": "7000" },
+    "overlay": { "value": "8000" },
+    "reminder": { "value": "8500" },
+    "modal": { "value": "9000" },
+    "spinner": { "value": "9050" },
+    "toast": { "value": "10000" },
+    "deepdive": { "value": "-9999" }
   }
 }
