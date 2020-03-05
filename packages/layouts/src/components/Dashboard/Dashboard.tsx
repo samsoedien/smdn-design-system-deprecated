@@ -12,15 +12,15 @@ import HeroBanner from '../HeroBanner'
 
 const StyledDashboard = styled.div`
   background-color: #efefef;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   min-width: 376px;
   overflow-x: hidden;
 `
 
 const StyledContainer = styled.div`
   display: grid;
-  grid-template-rows: 66px 1fr 36px;
+  grid-template-rows: 60px 66px 1fr 36px;
   grid-template-columns: 384px 1fr 96px;
   grid-template-areas:
     'dashboard-navigation dashboard-navigation dashboard-navigation '

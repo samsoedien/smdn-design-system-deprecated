@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledDashboardMain = styled.main`
   grid-area: dashboard-main;
+  outline: 1px solid orange;
 `
 
 export interface IDashboardMainProps {

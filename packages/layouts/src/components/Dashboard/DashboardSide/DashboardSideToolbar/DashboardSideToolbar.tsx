@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledDashboardSideToolbar = styled.div`
   grid-area: dashboard-side-toolbar;
+  outline: 1px solid green;
 `
 
 export interface IDashboardSideToolbarProps {

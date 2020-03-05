@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledDashboardNavigation = styled.nav`
   grid-area: dashboard-navigation;
+  outline: 1px solid blue;
 `
 
 export interface IDashboardNavigationProps {

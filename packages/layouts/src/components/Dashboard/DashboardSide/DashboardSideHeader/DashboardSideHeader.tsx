@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledDashboardSideHeader = styled.header`
   grid-area: dashboard-side-header;
+  outline: 1px solid red;
 `
 export interface IDashboardSideHeaderProps {
   children: React.ReactNode

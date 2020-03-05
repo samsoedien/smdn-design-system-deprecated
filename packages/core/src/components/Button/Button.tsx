@@ -34,7 +34,6 @@ const StyledButton = styled.button<IButtonProps>`
         background-color: ${TokenColorBrandButtonPrimaryHover};
         transition: 0.2s;
       }
-      ,
       &[disabled] {
         background-color: ${TokenColorBrandButtonPrimaryDisabled};
       }
