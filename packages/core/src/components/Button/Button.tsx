@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 import {
+  TokenSpacingNone,
+  TokenSpacingSmall,
   TokenColorBrandButtonPrimaryBase,
   TokenColorBrandButtonPrimaryHover,
   TokenColorBrandButtonPrimaryDisabled,
@@ -11,7 +13,7 @@ import {
 const StyledButton = styled.button<IButtonProps>`
   /* height: ${props => props.size}; */
   min-width: 32px;
-  padding: 0 12px;
+  padding: ${TokenSpacingNone} ${TokenSpacingSmall};
   border: none;
   border-radius: 4px;
   line-height: 32px;
