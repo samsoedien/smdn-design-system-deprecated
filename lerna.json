@@ -5,11 +5,13 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "ignoreChanges": ["*.md", "*.story.tsx", "*.story.mdx", "*.test.ts", "*.test.tsx", "*.snap", "*.d.ts"],
+      "message": "Release [ci skip]",
       "conventionalCommits": true,
       "registry": "http://localhost:4873",
       "access": "public",
       "npmClient": "yarn",
-      "allowBranch": ["master", "feature/*"]
+      "allowBranch": ["master", "next", "feature/*"]
     }
   }
 }
