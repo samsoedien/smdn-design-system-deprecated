@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 import {
+  TokenSpacingNone,
+  TokenSpacingSmall,
   TokenColorBrandButtonPrimaryBase,
   TokenColorBrandButtonPrimaryHover,
   TokenColorBrandButtonPrimaryDisabled,
