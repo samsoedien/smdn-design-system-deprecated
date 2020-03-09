@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Divider from './index'
 
 export default {
-  title: 'Components/Divider',
+  title: 'Core/Divider',
   component: Divider,
   componentTitle: 'Component used as elevated container for content',
   decorators: [withKnobs],

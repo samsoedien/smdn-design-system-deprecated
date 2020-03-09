@@ -6,14 +6,22 @@ import {
   TokenColorBrandButtonPrimaryBase,
   TokenColorBrandButtonPrimaryHover,
   TokenColorBrandButtonPrimaryDisabled,
+  TokenColorBackgroundGrey05,
+  TokenColorBackgroundGrey10,
+  TokenColorTextDefault,
+  TokenColorTextWhite,
+  TokenSpacingNone,
+  TokenSpacingSmall,
+  TokenSizeRadiusSmall,
 } from '@smdn/tokens'
 
 const StyledButton = styled.button<IButtonProps>`
   /* height: ${props => props.size}; */
+  color: ${TokenColorTextDefault};
   min-width: 32px;
-  padding: 0 12px;
+  padding: ${TokenSpacingNone} ${TokenSpacingSmall};
   border: none;
-  border-radius: 4px;
+  border-radius: ${TokenSizeRadiusSmall};
   line-height: 32px;
   transition: 0.2s;
   user-select: none;
@@ -28,7 +36,7 @@ const StyledButton = styled.button<IButtonProps>`
     props.appearance === 'primary' &&
     css`
       background-color: ${TokenColorBrandButtonPrimaryBase};
-      color: #fff;
+      color: ${TokenColorTextWhite};
       &:hover,
       &:focus {
         background-color: ${TokenColorBrandButtonPrimaryHover};
@@ -41,10 +49,10 @@ const StyledButton = styled.button<IButtonProps>`
   ${props =>
     props.appearance === 'secondary' &&
     css`
-      background-color: #efefef;
+      background-color: ${TokenColorBackgroundGrey05};
       &:hover,
       &:focus {
-        background-color: #d3d3d3;
+        background-color: ${TokenColorBackgroundGrey10};
         transition: 0.2s;
       }
     `};
@@ -54,7 +62,7 @@ const StyledButton = styled.button<IButtonProps>`
       background-color: transparent;
       &:hover,
       &:focus {
-        background-color: #d3d3d3;
+        background-color: ${TokenColorBackgroundGrey05};
         transition: 0.2s;
       }
     `};

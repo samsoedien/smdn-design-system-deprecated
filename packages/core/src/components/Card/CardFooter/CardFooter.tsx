@@ -2,8 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { TokenSpacingSmall } from '@smdn/tokens'
+
 const StyledCardFooter = styled.footer`
   min-height: 48px;
+  margin: ${TokenSpacingSmall};
+  display: flex;
+  align-items: center;
 `
 
 export interface ICardFooterProps {

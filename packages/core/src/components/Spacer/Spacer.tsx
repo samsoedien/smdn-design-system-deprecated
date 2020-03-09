@@ -2,36 +2,56 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
-const StyledSpacer = styled.br<ISpacerProps>`
+import {
+  TokenSpacingXxSmall,
+  TokenSpacingXSmall,
+  TokenSpacingSmall,
+  TokenSpacingMedium,
+  TokenSpacingLarge,
+  TokenSpacingXLarge,
+  TokenSpacingXxLarge,
+} from '@smdn/tokens'
+
+const StyledSpacer = styled.div<ISpacerProps>`
   width: 100%;
   ${props =>
-    props.size === 'xxs' &&
+    props.size === 'xx-small' &&
     css`
-      height: 3px;
+      height: ${TokenSpacingXxSmall};
     `};
   ${props =>
-    props.size === 'xs' &&
+    props.size === 'x-small' &&
     css`
-      height: 6px;
+      height: ${TokenSpacingXSmall};
     `};
   ${props =>
-    props.size === 'sm' &&
+    props.size === 'small' &&
     css`
-      height: 12px;
+      height: ${TokenSpacingSmall};
     `};
   ${props =>
-    props.size === 'md' &&
+    props.size === 'medium' &&
     css`
-      height: 24px;
+      height: ${TokenSpacingMedium};
     `};
   ${props =>
-    props.size === 'lg' &&
+    props.size === 'large' &&
     css`
-      height: 48px;
+      height: ${TokenSpacingLarge};
+    `};
+  ${props =>
+    props.size === 'x-large' &&
+    css`
+      height: ${TokenSpacingXLarge};
+    `};
+  ${props =>
+    props.size === 'xx-large' &&
+    css`
+      height: ${TokenSpacingXxLarge};
     `};
 `
 
-export type Size = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl'
+export type Size = 'xx-small' | 'x-small' | 'small' | 'medium' | 'large' | 'x-large' | 'xx-large'
 
 export interface ISpacerProps {
   size?: Size
@@ -42,11 +62,11 @@ const Spacer: React.FC<ISpacerProps> = ({ size }) => {
 }
 
 Spacer.defaultProps = {
-  size: 'sm',
+  size: 'small',
 }
 
 Spacer.propTypes = {
-  size: PropTypes.oneOf<Size>(['xxs', 'xs', 'sm', 'md', 'lg', 'xl']),
+  size: PropTypes.oneOf<Size>(['xx-small', 'x-small', 'small', 'medium', 'large', 'x-large', 'xx-large']),
 }
 
 export default Spacer

@@ -2,10 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { TokenColorBackgroundWhite, TokenSpacingSmall, TokenSizingLarge, TokenSizeRadiusSmall } from '@smdn/tokens'
+
 const StyledCardContent = styled.section`
-  background-color: #fff;
-  margin: 12px;
-  border-radius: 3px;
+  /* width: 100%; */
+  min-height: ${TokenSizingLarge};
+  height: 100%;
+  background-color: ${TokenColorBackgroundWhite};
+  margin: ${TokenSpacingSmall};
+  border-radius: ${TokenSizeRadiusSmall};
 `
 
 export interface ICardContentProps {

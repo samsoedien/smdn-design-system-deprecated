@@ -2,8 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { TokenColorBackgroundWhite, TokenSizingXxLarge } from '@smdn/tokens'
+
 const StyledCardHeader = styled.header`
-  background-color: #fff;
+  width: 100%;
+  height: ${TokenSizingXxLarge};
+  background-color: ${TokenColorBackgroundWhite};
 `
 
 export interface ICardHeaderProps {

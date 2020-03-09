@@ -1,5 +1,5 @@
 {
-  "size": {
+  "sizing": {
     "none": { "value": 0 },
     "xx-small": { "value": "3px" },
     "x-small": { "value": "6px" },
@@ -15,7 +15,7 @@
       "large": { "value": "1.5" },
       "x-large": { "value": "2" },
       "xx-large": { "value": "3" },
-      "base": { "value": "{size.padding.medium.value}" }
+      "base": { "value": "1" }
     },
     "icon": {
       "small": { "value": "1.5" },
@@ -32,7 +32,7 @@
       "x-large": { "value": "1.5" },
       "xx-large": { "value": "2" },
       "xxx-large": { "value": "3" },
-      "base": { "value": "{size.font.medium.value}" }
+      "base": { "value": "{sizing.font.medium.value}" }
     }
   }
 }

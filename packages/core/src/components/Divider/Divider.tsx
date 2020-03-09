@@ -2,7 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledDivider = styled.hr<Partial<IDividerProps>>``
+import { TokenColorBackgroundGrey25 } from '@smdn/tokens'
+
+const StyledDivider = styled.hr<Partial<IDividerProps>>`
+  border: none;
+  height: 1px;
+  background-color: ${TokenColorBackgroundGrey25};
+`
 
 export type Orientation = 'horizontal' | 'vertical'
 

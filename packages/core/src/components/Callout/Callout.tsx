@@ -2,34 +2,47 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
+import {
+  TokenSpacingXSmall,
+  TokenSpacingSmall,
+  TokenColorBackgroundGrey10,
+  TokenColorBackgroundGrey25,
+  TokenColorBackgroundSuccess,
+  TokenColorBrandSuccess,
+  TokenColorBackgroundWarning,
+  TokenColorBrandWarning,
+  TokenColorBackgroundDanger,
+  TokenColorBrandDanger,
+} from '@smdn/tokens'
+
 const StyledCallout = styled.div<Partial<ICalloutProps>>`
   width: 100%;
   font-size: 14px;
-  padding: 6px 9px;
+  padding: ${TokenSpacingXSmall} ${TokenSpacingSmall};
 
   ${props =>
     props.color === 'info' &&
     css`
-      border-left: 3px solid darkgrey;
-      background-color: rgba(76, 182, 251, 0.15);
+      border-left: 3px solid ${TokenColorBackgroundGrey25};
+      background-color: ${TokenColorBackgroundGrey10};
     `};
   ${props =>
     props.color === 'success' &&
     css`
-      border-left: 3px solid blue;
-      background-color: lightblue;
+      border-left: 3px solid ${TokenColorBrandSuccess};
+      background-color: ${TokenColorBackgroundSuccess};
     `};
   ${props =>
     props.color === 'warning' &&
     css`
-      border-left: 3px solid yellow;
-      background-color: lightyellow;
+      border-left: 3px solid ${TokenColorBrandWarning};
+      background-color: ${TokenColorBackgroundWarning};
     `};
   ${props =>
     props.color === 'danger' &&
     css`
-      border-left: 3px solid darkred;
-      background-color: red;
+      border-left: 3px solid ${TokenColorBrandDanger};
+      background-color: ${TokenColorBackgroundDanger};
     `};
   ${props =>
     props.isCondensed &&

@@ -23,7 +23,7 @@
       "success": { "value": "{aliases.PALETTE_BLUE_10}" },
       "warning": { "value": "{aliases.YELLOW}" },
       "danger": { "value": "{aliases.RED}" },
-      "white": {"value": "{aliases.WHITE}"}
+      "white": { "value": "{aliases.WHITE}" }
     },
     "text": {
       "default": { "value": "{aliases.BLACK}" },

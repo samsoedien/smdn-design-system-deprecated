@@ -5,7 +5,7 @@ import { withKnobs, text, boolean } from '@storybook/addon-knobs' // eslint-disa
 import Button from './index'
 
 export default {
-  title: 'Components/Button',
+  title: 'Core/Button',
   component: Button,
   componentTitle: 'Basic buttons to provide the user with an action when user interaction is required.',
   decorators: [withKnobs],
