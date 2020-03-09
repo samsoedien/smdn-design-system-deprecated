@@ -1,3 +1,38 @@
 {
-  "size": {}
+  "size": {
+    "none": { "value": 0 },
+    "xx-small": { "value": "3px" },
+    "x-small": { "value": "6px" },
+    "small": { "value": "12px" },
+    "medium": { "value": "24px" },
+    "large": { "value": "48px" },
+    "x-large": { "value": "72px" },
+    "xx-large": { "value": "96px" },
+    "padding": {
+      "tiny": { "value": "0.25" },
+      "small": { "value": "0.5" },
+      "medium": { "value": "1" },
+      "large": { "value": "1.5" },
+      "x-large": { "value": "2" },
+      "xx-large": { "value": "3" },
+      "base": { "value": "{size.padding.medium.value}" }
+    },
+    "icon": {
+      "small": { "value": "1.5" },
+      "base": { "value": "2.0" },
+      "large": { "value": "2.5" },
+      "x-large": { "value": "3.0" },
+      "xx-large": { "value": "5.0" }
+    },
+    "font": {
+      "tiny": { "value": "0.75" },
+      "small": { "value": "0.875" },
+      "medium": { "value": "1" },
+      "large": { "value": "1.25" },
+      "x-large": { "value": "1.5" },
+      "xx-large": { "value": "2" },
+      "xxx-large": { "value": "3" },
+      "base": { "value": "{size.font.medium.value}" }
+    }
+  }
 }
