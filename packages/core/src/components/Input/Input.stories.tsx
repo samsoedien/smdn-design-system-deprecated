@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Input from './index'
 
 export default {
-  title: 'Components/Input',
+  title: 'Core/Input',
   component: Input,
   componentTitle: 'Component for user input',
   decorators: [withKnobs],

@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { TokenColorBackgroundGrey10, TokenSpacingXSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
+
 export interface ITextareaProps {
   name: string
   rows?: number
@@ -14,7 +16,10 @@ export interface ITextareaProps {
 
 const StyledTextarea = styled.textarea<ITextareaProps>`
   width: 100%;
-  background-color: #efefef;
+  background-color: ${TokenColorBackgroundGrey10};
+  border: none;
+  border-radius: ${TokenSizeRadiusSmall};
+  text-indent: ${TokenSpacingXSmall};
 `
 
 const Textarea: React.FC<ITextareaProps> = ({ name, rows, cols, autofocus, disabled, onChange, children }) => {

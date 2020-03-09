@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Tag from './index'
 
 export default {
-  title: 'Components/Tag',
+  title: 'Core/Tag',
   component: Tag,
   componentTitle: 'Component for adding small color accented labels',
   decorators: [withKnobs],

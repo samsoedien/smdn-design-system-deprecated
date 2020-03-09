@@ -2,18 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
+import { TokenColorBackgroundGrey10, TokenSpacingSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
+
 const StyledInput = styled.input<IInputProps>`
   width: 100%;
   height: 36px;
-  background-color: #efefef;
+  background-color: ${TokenColorBackgroundGrey10};
   border: 0;
-  border-radius: 3px;
+  border-radius: ${TokenSizeRadiusSmall};
   font-size: 14px;
-  ${props =>
-    props.isCondensed &&
-    css`
-      height: 30px;
-    `};
+  text-indent: ${TokenSpacingSmall}
+    ${props =>
+      props.isCondensed &&
+      css`
+        height: 30px;
+      `};
 `
 
 export type Type = 'text' | 'password'

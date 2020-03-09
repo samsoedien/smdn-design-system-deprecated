@@ -2,12 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { TokenColorBackgroundGrey05, TokenSpacingXxSmall, TokenSpacingSmall, TokenSizeRadiusCircle } from '@smdn/tokens'
+
 const StyledTag = styled.span<Partial<ITagProps>>`
-  background-color: ${props => `${props.color}`};
+  background-color: ${TokenColorBackgroundGrey05};
   height: 18px;
   line-height: 18px;
-  padding: 4px;
-  border-radius: 9px;
+  padding: ${TokenSpacingXxSmall} ${TokenSpacingSmall};
+  border-radius: ${TokenSizeRadiusCircle};
 `
 export interface ITagProps {
   color?: string

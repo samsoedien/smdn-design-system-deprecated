@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Comment from './index'
 
 export default {
-  title: 'Components/Comment',
+  title: 'Core/Comment',
   component: Comment,
   componentTitle: 'Comment',
   decorators: [withKnobs],

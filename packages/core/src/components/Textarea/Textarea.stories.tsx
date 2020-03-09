@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Textarea from './index'
 
 export default {
-  title: 'Components/Textarea',
+  title: 'Core/Textarea',
   component: Textarea,
   componentTitle: 'Component for user input',
   decorators: [withKnobs],
