@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md", "*.story.tsx", "*.story.mdx", "*.test.ts", "*.test.tsx", "*.snap", "*.d.ts"],
-      "message": "Release [ci skip]",
+      "message": "chore(release): publish %s [ci skip]",
       "conventionalCommits": true,
       "registry": "http://localhost:4873",
       "access": "public",
