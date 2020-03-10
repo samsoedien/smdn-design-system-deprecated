@@ -5,7 +5,10 @@
   "types": "typings/index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens",
-  "author": "Samsoedien <contact@samsoedien.com>",
+  "author": "Samsoedien <contact@samsoedien.com> (https://samsoedien.com)",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "yarn build:tokens",
     "build:tokens": "style-dictionary build --config ./style-dictionary.config.json",
@@ -13,5 +16,6 @@
   },
   "devDependencies": {
     "style-dictionary": "^2.8.3"
-  }
+  },
+  "gitHead": "40bf8dedb28818d783d1ec280fae8269e5dff1a3"
 }

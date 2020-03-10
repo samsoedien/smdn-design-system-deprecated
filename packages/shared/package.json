@@ -5,7 +5,10 @@
   "types": "lib/index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared",
-  "author": "Samsoedien <contact@samsoedien.com>",
+  "author": "Samsoedien <contact@samsoedien.com> (https://samsoedien.com)",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "yarn build:scripts && yarn build:types",
     "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline --ignore **/*.test.tsx,**/*.stories.tsx",
@@ -16,5 +19,6 @@
     "react": ">= 16",
     "react-dom": ">= 16",
     "styled-components": ">= 5"
-  }
+  },
+  "gitHead": "40bf8dedb28818d783d1ec280fae8269e5dff1a3"
 }
