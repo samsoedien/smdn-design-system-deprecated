@@ -1,17 +1,31 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.1.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.2.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "*.story.tsx", "*.story.mdx", "*.test.ts", "*.test.tsx", "*.snap", "*.d.ts"],
+      "ignoreChanges": [
+        "*.md",
+        "*.story.tsx",
+        "*.story.mdx",
+        "*.test.ts",
+        "*.test.tsx",
+        "*.snap",
+        "*.d.ts"
+      ],
       "message": "chore(release): publish %s [ci skip]",
       "conventionalCommits": true,
       "registry": "http://localhost:4873",
       "access": "public",
       "npmClient": "yarn",
-      "allowBranch": ["master", "next", "feature/*"]
+      "allowBranch": [
+        "master",
+        "next",
+        "feature/*"
+      ]
     }
   }
 }
