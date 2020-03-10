@@ -17,7 +17,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn clean && yarn build && yarn storybook",
+    "start": "yarn clean && yarn bootstrap && yarn build && yarn storybook",
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build --stream",
     "build:tokens": "yarn lerna run build:tokens",
@@ -60,6 +60,7 @@
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
+    "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.1.1",
     "commitlint": "^8.3.5",
