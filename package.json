@@ -5,7 +5,7 @@
   "description": "Design system with reusable UI components & design tokens for personal projects",
   "main": "index.js",
   "repository": "https://github.com/samsoedien/smdn-design-system",
-  "author": "Samsoedien <contact@samsoedien.com>",
+  "author": "Samsoedien <contact@samsoedien.com> (https://samsoedien.com)",
   "license": "MIT",
   "contributors": [
     {
@@ -30,7 +30,9 @@
     "test:ci": "jest --runInBand --ci --updateSnapshot",
     "test:coverage": "yarn test --coverage",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "release": "yarn lerna publish",
+    "release:next": "yarn lern publish --prerelease"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
