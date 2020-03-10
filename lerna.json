@@ -1,31 +1,14 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.2.3",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "*.story.tsx",
-        "*.story.mdx",
-        "*.test.ts",
-        "*.test.tsx",
-        "*.snap",
-        "*.d.ts"
-      ],
+      "ignoreChanges": ["*.md", "*.story.tsx", "*.story.mdx", "*.test.ts", "*.test.tsx", "*.snap", "*.d.ts"],
       "message": "chore(release): publish %s [ci skip]",
       "conventionalCommits": true,
-      "registry": "https://www.npmjs.com/package/samsoedien",
-      "access": "public",
-      "npmClient": "yarn",
-      "allowBranch": [
-        "master",
-        "next",
-        "feature/*"
-      ]
+      "allowBranch": ["master", "next", "feature/*"]
     }
   }
 }
