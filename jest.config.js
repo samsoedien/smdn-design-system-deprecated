@@ -186,4 +186,8 @@ module.exports = {
   // Whether to use watchman for file crawling
   // watchman: true,
   setupFilesAfterEnv: ['./config/setupTests.ts'],
+  transform: {
+    '^.+\\.[tj]sx?$': 'babel-jest',
+    '^.+\\.mdx?$': '@storybook/addon-docs/jest-transform-mdx',
+  },
 }
