@@ -6,6 +6,9 @@
   "license": "MIT",
   "repository": "https://github.com/samsoedien/smdn-design-system/tree/master/packages/core",
   "author": "Samsoedien <contact@samsoedien.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "yarn build:scripts && yarn build:types",
     "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline --ignore **/*.test.tsx,**/*.stories.tsx",

@@ -13,9 +13,6 @@
       "url": "https://github.com/samsoedien"
     }
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "workspaces": [
     "packages/*"
   ],
