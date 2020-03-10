@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import ListGroup from './index'
 
 export default {
-  title: 'Components/ListGroup',
+  title: 'Core/ListGroup',
   component: ListGroup,
   componentTitle: 'ListGroup',
   decorators: [withKnobs],

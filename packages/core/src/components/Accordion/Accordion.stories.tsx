@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Accordion from './index'
 
 export default {
-  title: 'Components/Accordion',
+  title: 'Core/Accordion',
   component: Accordion,
   componentTitle: 'Accordion',
   decorators: [withKnobs],

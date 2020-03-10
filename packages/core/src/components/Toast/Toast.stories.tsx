@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Toast from './index'
 
 export default {
-  title: 'Components/Toast',
+  title: 'Core/Toast',
   component: Toast,
   componentTitle: 'Toast',
   decorators: [withKnobs],

@@ -8,7 +8,7 @@ import TableCell from './TableCell'
 import TableBody from './TableBody'
 
 export default {
-  title: 'Components/Table',
+  title: 'Core/Table',
   component: Table,
   componentTitle: 'Table',
   decorators: [withKnobs],

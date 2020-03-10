@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Badge from './index'
 
 export default {
-  title: 'Components/Badge',
+  title: 'Core/Badge',
   component: Badge,
   componentTitle: 'Badge',
   decorators: [withKnobs],

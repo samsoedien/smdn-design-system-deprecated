@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Dropdown from './index'
 
 export default {
-  title: 'Components/Dropdown',
+  title: 'Core/Dropdown',
   component: Dropdown,
   componentTitle: 'Component for user Dropdown',
   decorators: [withKnobs],

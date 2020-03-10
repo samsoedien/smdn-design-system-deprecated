@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Tabs from './index'
 
 export default {
-  title: 'Components/Tabs',
+  title: 'Core/Tabs',
   component: Tabs,
   componentTitle: 'Tabs',
   decorators: [withKnobs],

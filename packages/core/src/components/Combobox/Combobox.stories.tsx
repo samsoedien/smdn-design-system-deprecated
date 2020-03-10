@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Combobox from './index'
 
 export default {
-  title: 'Components/Combobox',
+  title: 'Core/Combobox',
   component: Combobox,
   componentTitle: 'Combobox',
   decorators: [withKnobs],

@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 import Breadcrumbs from './index'
 
 export default {
-  title: 'Components/Breadcrumbs',
+  title: 'Core/Breadcrumbs',
   component: Breadcrumbs,
   componentTitle: 'Breadcrumbs',
   decorators: [withKnobs],
