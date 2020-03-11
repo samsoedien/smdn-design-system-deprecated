@@ -19,6 +19,5 @@
     "react": ">= 16",
     "react-dom": ">= 16",
     "styled-components": ">= 5"
-  },
-  "gitHead": "b806c95e6c4c5816c06370b14de316caa13781f0"
+  }
 }
