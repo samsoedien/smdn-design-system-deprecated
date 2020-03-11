@@ -18,6 +18,9 @@ jobs:
       - run: yarn build
       - run: yarn test:ci
   build-master:
+    docker:
+      - image: circleci/node:12
+    working_directory: ~/repo
     branches:
       only:
         - master
@@ -25,11 +28,3 @@ jobs:
       - run:
         name: release
         command: yarn release --yes
-  build-next:
-    branches:
-      only:
-        - next
-    steps:
-      - run:
-        name: prerelease
-        command: yarn prerelease --yes
