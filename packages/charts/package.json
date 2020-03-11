@@ -1,6 +1,6 @@
 {
   "name": "@smdn/charts",
-  "version": "0.2.5",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -21,12 +21,12 @@
     "styled-components": ">= 5"
   },
   "dependencies": {
-    "@smdn/icons": "^0.2.5",
-    "@smdn/shared": "^0.2.5",
+    "@smdn/icons": "^0.1.0",
+    "@smdn/shared": "^0.1.0",
     "@types/styled-components": "^4.4.3",
     "enzyme": "^3.11.0",
     "jest-styled-components": "^7.0.0",
     "prop-types": "^15.7.2"
   },
-  "gitHead": "40bf8dedb28818d783d1ec280fae8269e5dff1a3"
+  "gitHead": "b806c95e6c4c5816c06370b14de316caa13781f0"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@smdn/core",
-  "version": "0.2.5",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -21,13 +21,13 @@
     "styled-components": ">= 5"
   },
   "dependencies": {
-    "@smdn/icons": "^0.2.5",
-    "@smdn/shared": "^0.2.5",
-    "@smdn/tokens": "^0.2.5",
+    "@smdn/icons": "^0.1.0",
+    "@smdn/shared": "^0.1.0",
+    "@smdn/tokens": "^0.1.0",
     "@types/styled-components": "^4.4.3",
     "enzyme": "^3.11.0",
     "jest-styled-components": "^7.0.0",
     "prop-types": "^15.7.2"
   },
-  "gitHead": "213830148b226e87f70eadc18f9301047cfb6457"
+  "gitHead": "b806c95e6c4c5816c06370b14de316caa13781f0"
 }
