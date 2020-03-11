@@ -21,13 +21,15 @@ jobs:
     branches:
       only:
         - master
-  - run:
-    name: release
-    command: yarn release --yes
+    steps:
+      - run:
+        name: release
+        command: yarn release --yes
   build-next:
     branches:
       only:
         - next
-  - run:
-    name: prerelease
-    command: yarn prerelease --yes
+    steps:
+      - run:
+        name: prerelease
+        command: yarn prerelease --yes
