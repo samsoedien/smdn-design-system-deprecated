@@ -1,6 +1,6 @@
 {
   "name": "@smdn/layouts",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "styled-components": ">= 5"
   },
   "dependencies": {
-    "@smdn/shared": "^0.2.4",
+    "@smdn/shared": "^0.2.5",
     "@types/styled-components": "^4.4.3",
     "enzyme": "^3.11.0",
     "prop-types": "^15.7.2"
