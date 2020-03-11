@@ -17,6 +17,19 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: yarn build
       - run: yarn test:ci
-      # - run:
-      #     name: release
-      #     command: yarn release || true
+  build-master:
+    filters:
+      branches:
+        only:
+          - master
+    - run:
+      name: release
+      command: yarn release --yes
+  build-next:
+    filters:
+      branches:
+        only:
+          - next
+    - run:
+      name: prerelease
+      command: yarn prerelease --yes
