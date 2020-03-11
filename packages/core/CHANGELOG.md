@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.2.5...v0.1.1-alpha.0) (2020-03-11)
+
+**Note:** Version bump only for package @smdn/core
+
+
+
+
+
 ## [0.2.5](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.2.4...v0.2.5) (2020-03-11)
 
 **Note:** Version bump only for package @smdn/core
