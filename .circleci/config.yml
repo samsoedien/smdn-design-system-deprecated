@@ -4,6 +4,9 @@ jobs:
     docker:
       - image: circleci/node:12
     working_directory: ~/repo
+    branches:
+      only:
+        - master
     steps:
       - checkout
       - restore_cache:
@@ -15,14 +18,11 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: 
+      - run:
           name: Building
           command: yarn build
-      - run: 
+      - run:
           name: Testing
           command: yarn test:ci
       # - run: yarn release --yes
       - run: echo "Running pipeline on master"
-      branches:
-        only:
-          - master
