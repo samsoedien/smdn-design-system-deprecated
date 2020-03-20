@@ -28,7 +28,18 @@ jobs:
       - store_artifacts:
           path: test-results
       # - run: yarn release --yes
+  deploy:
+    docker:
+      - image: circleci/node:12
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: echo "releasing & deploying..."
+
 workflows:
   my_workflow:
     jobs:
       - build
+      - deploy:
+        requires:
+          - build
