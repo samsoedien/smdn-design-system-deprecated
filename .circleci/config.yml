@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -13,16 +13,25 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      - run: yarn install
+      - run:
+          name: Installing NPM Dependencies
+          command: yarn install
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run:
-          name: Building
+          name: Run Build
           command: yarn build
       - run:
-          name: Testing
+          name: Run Unit & Integration Tests
           command: yarn test:ci
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results
       # - run: yarn release --yes
-      - run: echo "Running pipeline on master"
+workflows:
+  my_workflow:
+    jobs:
+      - build
