@@ -22,6 +22,7 @@ jobs:
           command: yarn build
       - persist_to_workspace:
           root: .
+          paths: .
       - run:
           name: Run Unit & Integration Tests
           command: yarn test:ci
