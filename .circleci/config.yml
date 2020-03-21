@@ -20,6 +20,8 @@ jobs:
       - run:
           name: Run Build
           command: yarn build
+      - persist_to_workspace:
+          root: .
       - run:
           name: Run Unit & Integration Tests
           command: yarn test:ci
@@ -27,23 +29,21 @@ jobs:
           path: test-results
       - store_artifacts:
           path: test-results
-  deploy-dev:
-    - attach_workspace:
-        at: .
-    - run:
-        name: Publishing Prerelease
-        command: yarn prerelease --yes
-    - run: echo "deploying dev steps"
   deploy-prod:
     - attach_workspace:
         at: .
     - run:
         name: Publishing Release
         command: yarn release --yes
-    - run: echo "deploying prod steps"
+  deploy-dev:
+    - attach_workspace:
+        at: .
+    - run:
+        name: Publishing Prerelease
+        command: yarn prerelease --yes
 
 workflows:
-  master_workflow:
+  my_workflow:
     jobs:
       - build
       - deploy-prod:
