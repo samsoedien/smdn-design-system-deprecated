@@ -27,21 +27,24 @@ jobs:
           path: test-results
       - store_artifacts:
           path: test-results
-      # - run: yarn release --yes
   publish:
     docker:
       - image: circleci/node:12
     working_directory: ~/repo
     steps:
       - checkout
-      - run: echo "releasing & deploying..."
+      - run:
+          name: Publishing Release
+          command: yarn release --yes
   publish-next:
     docker:
       - image: circleci/node:12
     working_directory: ~/repo
     steps:
       - checkout
-      - run: echo "releasing & deploying next..."
+      - run:
+          name: Publishing Prerelease
+          command: yarn prerelease --yes
 
 workflows:
   my_workflow:
