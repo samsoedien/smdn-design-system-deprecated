@@ -30,17 +30,23 @@ jobs:
       - store_artifacts:
           path: test-results
   deploy-prod:
-    - attach_workspace:
-        at: .
-    - run:
-        name: Publishing Release
-        command: yarn release --yes
+    docker:
+      - image: circleci/node:12
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Publishing Release
+          command: yarn release --yes
   deploy-dev:
-    - attach_workspace:
-        at: .
-    - run:
-        name: Publishing Prerelease
-        command: yarn prerelease --yes
+    docker:
+      - image: circleci/node:12
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Publishing Prerelease
+          command: yarn prerelease --yes
 
 workflows:
   my_workflow:
