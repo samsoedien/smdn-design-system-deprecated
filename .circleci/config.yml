@@ -20,6 +20,9 @@ jobs:
       - run:
           name: Run Build
           command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: .
       - run:
           name: Run Unit & Integration Tests
           command: yarn test:ci
@@ -27,33 +30,36 @@ jobs:
           path: test-results
       - store_artifacts:
           path: test-results
-      # - run: yarn release --yes
-  publish:
+  deploy-prod:
     docker:
       - image: circleci/node:12
-    working_directory: ~/repo
     steps:
-      - checkout
-      - run: echo "releasing & deploying..."
-  publish-next:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Publishing Release
+          command: yarn release --yes
+  deploy-dev:
     docker:
       - image: circleci/node:12
-    working_directory: ~/repo
     steps:
-      - checkout
-      - run: echo "releasing & deploying next..."
+      - attach_workspace:
+          at: .
+      - run:
+          name: Publishing Prerelease
+          command: yarn prerelease --yes
 
 workflows:
   my_workflow:
     jobs:
       - build
-      - publish:
+      - deploy-prod:
           requires:
             - build
           filters:
             branches:
               only: master
-      - publish-next:
+      - deploy-dev:
           requires:
             - build
           filters:
