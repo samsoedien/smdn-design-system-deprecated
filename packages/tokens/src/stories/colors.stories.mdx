@@ -1,13 +1,21 @@
 import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
 import {
-  TokenColorBrandPrimary,
+ TokenColorBrandPrimary,
   TokenColorBrandSecondary,
   TokenColorBrandTertiary,
-  TokenColorBrandInfo,
-  TokenColorBrandSuccess,
-  TokenColorBrandWarning,
-  TokenColorBrandDanger,
   TokenColorBrandTransparentBase,
+  TokenColorBackgroundInfoBase,
+  TokenColorBackgroundInfoDark,
+  TokenColorBackgroundInfoDarker,
+  TokenColorBackgroundSuccessBase,
+  TokenColorBackgroundSuccessDark,
+  TokenColorBackgroundSuccessDarker,
+  TokenColorBackgroundWarningBase,
+  TokenColorBackgroundWarningDark,
+  TokenColorBackgroundWarningDarker,
+  TokenColorBackgroundDangerBase,
+  TokenColorBackgroundDangerDark,
+  TokenColorBackgroundDangerDarker
 } from '../../lib/web/es6/tokens';
 
 <Meta title="Tokens/Colors" />
@@ -26,23 +34,39 @@ import {
     colors={[TokenColorBrandTransparentBase]}
   />
   <ColorItem
-    title="TokenColorBrandInfo"
-    subtitle="TokenColorBrandInfo"
-    colors={[TokenColorBrandInfo]}
+    title="Info"
+    subtitle="TokenColorBackgroundInfoBase"
+    colors={[
+      TokenColorBackgroundInfoBase,
+      TokenColorBackgroundInfoDark,
+      TokenColorBackgroundInfoDarker
+    ]}
   />
   <ColorItem
-    title="TokenColorBrandSuccess"
-    subtitle="TokenColorBrandSuccess"
-    colors={[TokenColorBrandSuccess]}
+    title="Success"
+    subtitle="TokenColorBackgroundSuccessBase"
+    colors={[
+      TokenColorBackgroundSuccessBase,
+      TokenColorBackgroundSuccessDark,
+      TokenColorBackgroundSuccessDarker
+    ]}
   />
   <ColorItem
-    title="TokenColorBrandWarning"
-    subtitle="TokenColorBrandWarning"
-    colors={[TokenColorBrandWarning]}
+    title="Warning"
+    subtitle="TokenColorBackgroundWarningBase"
+    colors={[
+      TokenColorBackgroundWarningBase,
+      TokenColorBackgroundWarningDark,
+      TokenColorBackgroundWarningDarker
+    ]}
   />
   <ColorItem
-    title="TokenColorBrandDanger"
-    subtitle="TokenColorBrandDanger"
-    colors={[TokenColorBrandDanger]}
+    title="Danger"
+    subtitle="TokenColorBackgroundDangerBase"
+    colors={[
+      TokenColorBackgroundDangerBase,
+      TokenColorBackgroundDangerDark,
+      TokenColorBackgroundDangerDarker
+    ]}
   />
 </ColorPalette>

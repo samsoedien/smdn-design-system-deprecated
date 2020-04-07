@@ -1,37 +1,163 @@
 {
   "color": {
     "palette": {
-      "white-transparent-50": { "value": "{aliases.WHITE_TRANSPARENT_50}" }
+      "black": { "value": "{aliases.BLACK}", "comment": "" },
+      "white": { "value": "{aliases.WHITE}", "comment": "" },
+      "white-transparent-50": { "value": "{aliases.WHITE_TRANSPARENT_50}", "comment": "" },
+      "grey-05": { "value": "{aliases.PALETTE_GREY_05}", "comment": "" },
+      "grey-10": { "value": "{aliases.PALETTE_GREY_10}", "comment": "" },
+      "grey-15": { "value": "{aliases.PALETTE_GREY_15}", "comment": "" },
+      "grey-25": { "value": "{aliases.PALETTE_GREY_25}", "comment": "" },
+      "grey-35": { "value": "{aliases.PALETTE_GREY_35}", "comment": "" },
+      "grey-45": { "value": "{aliases.PALETTE_GREY_45}", "comment": "" },
+      "grey-55": { "value": "{aliases.PALETTE_GREY_55}", "comment": "" },
+      "grey-65": { "value": "{aliases.PALETTE_GREY_65}", "comment": "" },
+      "grey-75": { "value": "{aliases.PALETTE_GREY_75}", "comment": "" },
+      "grey-85": { "value": "{aliases.PALETTE_GREY_85}", "comment": "" },
+      "grey-95": { "value": "{aliases.PALETTE_GREY_95}", "comment": "" }
     },
     "brand": {
-      "primary": { "value": "{aliases.PALETTE_BLUE_35}" },
-      "secondary": { "value": "{aliases.PALETTE_BLUE_65}" },
-      "tertiary": { "value": "{aliases.PALETTE_BLUE_35}" },
-      "info": { "value": "{aliases.PALETTE_BLUE_35}" },
-      "success": { "value": "{aliases.PALETTE_BLUE_35}" },
-      "warning": { "value": "{aliases.YELLOW_DARK}" },
-      "danger": { "value": "{aliases.RED_DARK}" }
+      "light": {
+        "base": { "value": "{}", "comment": "" },
+        "active": { "value": "{}", "comment": "" }
+      },
+      "dark": {
+        "base": { "value": "{}", "comment": "" },
+        "active": { "value": "{}", "comment": "" }
+      },
+      "primary": {
+        "base": { "value": "{}", "comment": "" },
+        "active": { "value": "{}", "comment": "" },
+        "transparent": { "value": "{}", "comment": "" }
+      },
+      "secondary": {
+        "base": { "value": "{}", "comment": "" },
+        "active": { "value": "{}", "comment": "" },
+        "transparent": { "value": "{}", "comment": "" }
+      },
+      "tertiary": {
+        "base": { "value": "{}", "comment": "" },
+        "active": { "value": "{}", "comment": "" },
+        "transparent": { "value": "{}", "comment": "" }
+      },
+      "background": {
+        "primary": { "value": "{aliases.PALETTE_BLUE_10}", "comment": "Primary page background color" },
+        "dark": { "value": "{aliases.PALETTE_BLUE_65}", "comment": "Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color" }
+      },
+      "accessible": {
+        "base": { "value": "{aliases.PALETTE_BLUE_35}", "comment": "Dark variant of BRAND that is accessible with white" },
+        "active": { "value": "{aliases.PALETTE_BLUE_45}", "comment": "Active / Hover state of BRAND_A11Y" }
+      },
+      "contrast": {},
+      "disabled": {},
+      "header": {},
+      "text": {
+        "link": { "value": "{}", "comment": "" },
+        "link-active": { "value": "{}", "comment": "" }
+      }
     },
     "background": {
-      "default": { "value": "{aliases.PALETTE_GREY_05}" },
-      "grey-05": { "value": "{aliases.PALETTE_GREY_05}" },
-      "grey-10": { "value": "{aliases.PALETTE_GREY_10}" },
-      "grey-15": { "value": "{aliases.PALETTE_GREY_15}" },
-      "grey-25": { "value": "{aliases.PALETTE_GREY_25}" },
-      "grey-35": { "value": "{aliases.PALETTE_GREY_35}" },
-      "info": { "value": "{aliases.PALETTE_BLUE_10}" },
-      "success": { "value": "{aliases.PALETTE_BLUE_10}" },
-      "warning": { "value": "{aliases.YELLOW}" },
-      "danger": { "value": "{aliases.RED}" },
-      "white": { "value": "{aliases.WHITE}" }
+      "base": { "value": "{aliases.PALETTE_GREY_05}", "comment": "Default background color for the whole app." },
+      "alt": { "value": "{aliases.WHITE}", "comment": "Second default background color for the app." },
+      "alt-inverse": { "value": "{aliases.PALETTE_GREY_95}", "comment": "Alternative background color for dark portions of the app." },
+      "inverse": {
+        "value": "{}",
+        "comment": "Default background color for dark portions of the app (like Stage Left or tooltips)."
+      },
+      "inverse-light": { "value": "{}", "comment": "Light variant of COLOR_BACKGROUND_INVERSE." },
+      "light": { "value": "{}", "comment": "Light variant of COLOR_BACKGROUND." },
+      "dark": { "value": "{}", "comment": "" },
+      "info": {
+        "base": { "value": "{aliases.PALETTE_BLUE_10}", "comment": "" },
+        "dark": { "value": "{aliases.PALETTE_BLUE_35}", "comment": "" },
+        "darker": { "value": "{aliases.PALETTE_BLUE_55}", "comment": "" }
+      },
+      "success": {
+        "base": { "value": "{aliases.PALETTE_GREEN_10}", "comment": "" },
+        "dark": { "value": "{aliases.PALETTE_GREEN_20}", "comment": "" },
+        "darker": { "value": "{aliases.PALETTE_GREEN_40}", "comment": "" }
+      },
+      "warning": {
+        "base": { "value": "{aliases.PALETTE_YELLOW_10}", "comment": "" },
+        "dark": { "value": "{aliases.PALETTE_YELLOW_20}", "comment": "" },
+        "darker": { "value": "{aliases.PALETTE_YELLOW_40}", "comment": "" }
+      },
+      "danger": {
+        "base": { "value": "{aliases.PALETTE_RED_10}", "comment": "" },
+        "dark": { "value": "{aliases.PALETTE_RED_20}", "comment": "" },
+        "darker": { "value": "{aliases.PALETTE_RED_40}", "comment": "" }
+      },
+
+      "destructive": {
+        "base": {},
+        "active": {},
+        "hover": {}
+      },
+      "error": {
+        "base": {},
+        "dark": {},
+        "darker": {}
+      },
+      "backdrop": {},
+      "highlight": {
+        "base": {},
+        "search": {}
+      },
+      "image-overlay": {},
+      "notification": {},
+      "offline": {},
+      "post": {},
+      "customer": {},
+      "input": {},
+      "row": {},
+      "scrollbar": {},
+      "selection": {},
+      "spinner": {},
+      "stencil": {},
+      "toast": {},
+      "toggle": {},
+      "brand": {
+        "base": {},
+        "dark": {},
+        "darker": {}
+      }
     },
     "text": {
-      "default": { "value": "{aliases.BLACK}" },
-      "label": { "value": "{aliases.PALETTE_GREY_55}" },
-      "white": { "value": "{aliases.WHITE}" }
+      "default": { "value": "{aliases.BLACK}", "comment": "Default text color on light background/theme" },
+      "inverse": { "value": "{aliases.WHITE}", "comment": "Default text color on dark background/theme" },
+      "weak": { "value": "{aliases.PALETTE_GREY_75}", "comment": "Deemphasised text color on light background/theme" },
+      "inverse-weak": { "value": "{aliases.PALETTE_GREY_15}", "comment": "Deemphasised text color on dark background/theme" },
+      "action": {},
+      "brand": {},
+      "button": {},
+      "customer": {},
+      "destructive": {},
+      "error": {},
+      "icon": {},
+      "label": {},
+      "link": {},
+      "placeholder": {},
+      "required": {},
+      "info": { "base": {}, "inverse": {} },
+      "success": { "base": {}, "inverse": {} },
+      "warning": { "base": {}, "inverse": {} },
+      "danger": { "base": {}, "inverse": {} }
     },
     "border": {
-      "default": { "value": "{aliases.PALETTE_GREY_15}" }
+      "base": { "value": "{aliases.PALETTE_GREY_15}", "commment": "" },
+      "inverse": {},
+      "brand": {},
+      "destructive": {},
+      "error": {},
+      "info": {},
+      "success": {},
+      "warning": {},
+      "danger": {},
+      "offline": {},
+      "reminder": {},
+      "selection": {},
+      "row": {},
+      "separator": {}
     }
   }
 }

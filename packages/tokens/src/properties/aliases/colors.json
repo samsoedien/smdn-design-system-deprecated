@@ -97,9 +97,16 @@
     "BRAND_TEXT_LINK": "#006DCC",
     "BRAND_TEXT_LINK_ACTIVE": "#005fb2",
 
-    "YELLOW": "#fcefca",
-    "YELLOW_DARK": "#d8aa1f",
-    "RED": "#f9cdcd",
-    "RED_DARK": "#eb5757"
+    "PALETTE_GREEN_10": "#D6F5E3",
+    "PALETTE_GREEN_20": "#ACECC7",
+    "PALETTE_GREEN_40": "#59D98F",
+
+    "PALETTE_YELLOW_10": "#FCF0CF",
+    "PALETTE_YELLOW_20": "#FAE29E",
+    "PALETTE_YELLOW_40": "#F4C53E",
+
+    "PALETTE_RED_10": "#FAD1D1",
+    "PALETTE_RED_20": "#F4A4A4",
+    "PALETTE_RED_40": "#E94949"
   }
 }
