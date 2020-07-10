@@ -11,8 +11,7 @@
   },
   "scripts": {
     "build": "yarn build:tokens",
-    "build:tokens": "style-dictionary build --config ./style-dictionary.config.json",
-    "clean": "rm -rf dist/* && rm -rf lib/*"
+    "build:tokens": "style-dictionary build --config ./style-dictionary.config.json"
   },
   "devDependencies": {
     "style-dictionary": "^2.8.3"

@@ -12,8 +12,7 @@
   "scripts": {
     "build": "yarn build:scripts && yarn build:types",
     "build:scripts": "cross-env BABEL_ENV=production babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib --source-maps inline --ignore **/*.test.tsx,**/*.stories.tsx",
-    "build:types": "tsc --emitDeclarationOnly",
-    "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf *.tsbuildinfo"
+    "build:types": "tsc --emitDeclarationOnly"
   },
   "peerDependencies": {
     "react": ">= 16",
