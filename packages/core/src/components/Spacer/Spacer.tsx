@@ -14,37 +14,37 @@ import {
 
 const StyledSpacer = styled.div<ISpacerProps>`
   width: 100%;
-  ${props =>
+  ${(props) =>
     props.size === 'xx-small' &&
     css`
       height: ${TokenSpacingXxSmall};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'x-small' &&
     css`
       height: ${TokenSpacingXSmall};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'small' &&
     css`
       height: ${TokenSpacingSmall};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'medium' &&
     css`
       height: ${TokenSpacingMedium};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'large' &&
     css`
       height: ${TokenSpacingLarge};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'x-large' &&
     css`
       height: ${TokenSpacingXLarge};
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'xx-large' &&
     css`
       height: ${TokenSpacingXxLarge};

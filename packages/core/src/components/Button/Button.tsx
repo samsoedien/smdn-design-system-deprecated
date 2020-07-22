@@ -16,7 +16,7 @@ import {
 } from '@smdn/tokens'
 
 const StyledButton = styled.button<IButtonProps>`
-  /* height: ${props => props.size}; */
+  /* height: ${(props) => props.size}; */
   color: ${TokenColorTextDefault};
   min-width: 32px;
   padding: ${TokenSpacingNone} ${TokenSpacingSmall};
@@ -27,12 +27,12 @@ const StyledButton = styled.button<IButtonProps>`
   user-select: none;
   cursor: pointer;
 
-  ${props =>
+  ${(props) =>
     props.isLoading &&
     css`
       cursor: progress;
     `};
-  ${props =>
+  ${(props) =>
     props.appearance === 'primary' &&
     css`
       background-color: ${TokenColorBrandButtonPrimaryBase};
@@ -46,7 +46,7 @@ const StyledButton = styled.button<IButtonProps>`
         background-color: ${TokenColorBrandButtonPrimaryDisabled};
       }
     `};
-  ${props =>
+  ${(props) =>
     props.appearance === 'secondary' &&
     css`
       background-color: ${TokenColorBackgroundGrey05};
@@ -56,7 +56,7 @@ const StyledButton = styled.button<IButtonProps>`
         transition: 0.2s;
       }
     `};
-  ${props =>
+  ${(props) =>
     props.appearance === 'tertiary' &&
     css`
       background-color: transparent;
@@ -66,17 +66,17 @@ const StyledButton = styled.button<IButtonProps>`
         transition: 0.2s;
       }
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'regular' &&
     css`
       height: 36px;
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'small' &&
     css`
       height: 30px;
     `};
-  ${props =>
+  ${(props) =>
     props.size === 'large' &&
     css`
       height: 48px;

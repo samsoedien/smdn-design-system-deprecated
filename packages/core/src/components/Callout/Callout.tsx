@@ -20,31 +20,31 @@ const StyledCallout = styled.div<Partial<ICalloutProps>>`
   font-size: 14px;
   padding: ${TokenSpacingXSmall} ${TokenSpacingSmall};
 
-  ${props =>
+  ${(props) =>
     props.color === 'info' &&
     css`
       border-left: 3px solid ${TokenColorBackgroundGrey25};
       background-color: ${TokenColorBackgroundGrey10};
     `};
-  ${props =>
+  ${(props) =>
     props.color === 'success' &&
     css`
       border-left: 3px solid ${TokenColorBrandSuccess};
       background-color: ${TokenColorBackgroundSuccess};
     `};
-  ${props =>
+  ${(props) =>
     props.color === 'warning' &&
     css`
       border-left: 3px solid ${TokenColorBrandWarning};
       background-color: ${TokenColorBackgroundWarning};
     `};
-  ${props =>
+  ${(props) =>
     props.color === 'danger' &&
     css`
       border-left: 3px solid ${TokenColorBrandDanger};
       background-color: ${TokenColorBackgroundDanger};
     `};
-  ${props =>
+  ${(props) =>
     props.isCondensed &&
     css`
       font-size: 12px;

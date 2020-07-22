@@ -12,7 +12,7 @@ const StyledInput = styled.input<IInputProps>`
   border-radius: ${TokenSizeRadiusSmall};
   font-size: 14px;
   text-indent: ${TokenSpacingSmall}
-    ${props =>
+    ${(props) =>
       props.isCondensed &&
       css`
         height: 30px;
