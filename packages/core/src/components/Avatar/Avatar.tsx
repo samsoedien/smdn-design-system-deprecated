@@ -8,12 +8,12 @@ const StyledImage = styled.img<Partial<IAvatarProps>>`
   display: inline-block;
   width: ${TokenSizingLarge};
   height: ${TokenSizingLarge};
-  ${props =>
+  ${(props) =>
     props.type === 'user' &&
     css`
       border-radius: ${TokenSizeRadiusCircle};
     `};
-  ${props =>
+  ${(props) =>
     props.type === 'product' &&
     css`
       border-radius: ${TokenSizeRadiusSmall};
@@ -25,12 +25,12 @@ const StyledImagePlaceholder = styled.div<Partial<IAvatarProps>>`
   width: ${TokenSizingLarge};
   height: ${TokenSizingLarge};
   background-color: ${TokenColorBackgroundGrey05};
-  ${props =>
+  ${(props) =>
     props.type === 'user' &&
     css`
       border-radius: ${TokenSizeRadiusCircle};
     `};
-  ${props =>
+  ${(props) =>
     props.type === 'product' &&
     css`
       border-radius: ${TokenSizeRadiusSmall};

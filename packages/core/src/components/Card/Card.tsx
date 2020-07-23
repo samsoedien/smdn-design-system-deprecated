@@ -19,12 +19,12 @@ export interface ICardProps {
 }
 
 const StyledCard = styled.div<ICardProps>`
-  ${props =>
+  ${(props) =>
     props.color === 'white' &&
     css`
       background-color: ${TokenColorBackgroundWhite};
     `};
-  ${props =>
+  ${(props) =>
     props.color === 'grey' &&
     css`
       background-color: ${TokenColorBackgroundGrey05};
