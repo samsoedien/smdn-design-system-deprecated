@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledPage = styled.div<IPageProps>`
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  background-color: #efefef;
+  display: flex;
 `
 
 interface IPageProps {

@@ -2,7 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledPageSideBar = styled.div``
+const StyledPageSideBar = styled.div`
+  width: 320px;
+  height: 100vh;
+  background: grey;
+`
 
 export interface IPageSideBar {
   children: React.ReactNode

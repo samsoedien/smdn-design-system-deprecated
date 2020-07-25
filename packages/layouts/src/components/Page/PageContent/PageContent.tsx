@@ -5,9 +5,10 @@ import styled from 'styled-components'
 const StyledPageContent = styled.div<IPageContentProps>`
   width: 1200px;
   height: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #efefef;
   margin: 0 auto;
-  padding: 48px 0;
+  padding: 48px;
 `
 
 interface IPageContentProps {
