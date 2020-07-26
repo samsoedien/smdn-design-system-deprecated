@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens/compare/v0.1.1-alpha.0...v0.2.0-alpha.0) (2020-07-26)
+
+
+### Bug Fixes
+
+* **button:** fix merge conflicts ([dd5e2a3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens/commit/dd5e2a3c7970237f20b1250a4bbd58b25dd71524))
+
+
+### Features
+
+* **tokens:** update token color structure ([f727911](https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens/commit/f7279114b09db6006647480d243b57961b957666))
+
+
+
+
+
+
 ## [0.1.1-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/tokens/compare/v0.2.5...v0.1.1-alpha.0) (2020-03-11)
 
 **Note:** Version bump only for package @smdn/tokens

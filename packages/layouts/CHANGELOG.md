@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/layouts/compare/v0.1.1-alpha.0...v0.2.0-alpha.0) (2020-07-26)
+
+
+### Features
+
+* **layouts:** create page with sidebar layout ([7f42f9f](https://github.com/samsoedien/smdn-design-system/tree/master/packages/layouts/commit/7f42f9ff07005cd6846bdde08d5b826e100598f4))
+
+
+
+
+
+
 ## [0.1.1-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/layouts/compare/v0.2.5...v0.1.1-alpha.0) (2020-03-11)
 
 **Note:** Version bump only for package @smdn/layouts
