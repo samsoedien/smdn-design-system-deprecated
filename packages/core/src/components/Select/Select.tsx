@@ -66,16 +66,18 @@ interface IOption {
 }
 
 export interface ISelectProps {
-  options: IOption[] | string[]
+  options: IOption[]
 }
 
-const Select: React.FC<ISelectProps | any> = ({ options }) => {
+const Select: React.FC<ISelectProps> = ({ options }) => {
   return (
     <>
       <StyledDropdown className="smdn-select" data-test="select-component">
         <StyledSelect>
-          {options.map((option: IOption | string, index: number) => (
-            <option value={option?.value || option}>{option?.label || option}</option>
+          {options.map((option: IOption, index: number) => (
+            <option key={index} value={option.value}>
+              {option.label}
+            </option>
           ))}
         </StyledSelect>
         <StyledCustomArrow />
@@ -86,7 +88,8 @@ const Select: React.FC<ISelectProps | any> = ({ options }) => {
 }
 
 Select.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object, PropTypes.string])).isRequired,
+  // options: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object, PropTypes.string])).isRequired,
+  options: PropTypes.any.isRequired,
 }
 
 export default Select

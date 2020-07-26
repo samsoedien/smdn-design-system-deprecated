@@ -16,8 +16,6 @@ const options = [
   { label: 'Option 3', value: 'option3' },
 ]
 
-// const options2 = ['hello', 'world']
-
 export const DefaultSelectComponent = () => <Select options={options} />
 
 DefaultSelectComponent.story = {
