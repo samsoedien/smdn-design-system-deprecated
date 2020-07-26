@@ -41,7 +41,7 @@ jobs:
           at: .
       - run:
           name: Setup
-          ssh-keyscan $Samsoedien >> ~/.ssh/known_hosts
+          command: ssh-keyscan $Samsoedien >> ~/.ssh/known_hosts
       - run:
           name: Publishing Release
           command: yarn release --yes
