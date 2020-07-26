@@ -30,7 +30,7 @@ jobs:
           path: test-results
       - store_artifacts:
           path: test-results
-  deploy-prod:
+  release:
     docker:
       - image: circleci/node:12
     steps:
@@ -39,7 +39,7 @@ jobs:
       - run:
           name: Publishing Release
           command: yarn release --yes
-  deploy-dev:
+  prerelease:
     docker:
       - image: circleci/node:12
     steps:
@@ -53,13 +53,13 @@ workflows:
   my_workflow:
     jobs:
       - build
-      - deploy-prod:
+      - release:
           requires:
             - build
           filters:
             branches:
               only: master
-      - deploy-dev:
+      - prerelease:
           requires:
             - build
           filters:
