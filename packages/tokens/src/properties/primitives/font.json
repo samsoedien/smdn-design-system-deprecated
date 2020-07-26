@@ -3,44 +3,44 @@
     "family": {},
     "size": {
       "base": { "value": "1" },
-      "1": { 
+      "1": {
         "value": "10",
         "comment": "font size 0.625rem/10px - recommended for dense areas such as data visualisation tick marks"
       },
-      "2": { 
+      "2": {
         "value": "11",
         "comment": "font size 0.6875rem/11px - recommended for list-items data-tables"
       },
-      "3": { 
-        "value": "12", 
+      "3": {
+        "value": "12",
         "comment": "font size 0.75rem/12px - recommended for actions or copy with less emphasis such as the side-toolbar"
       },
-      "4": { 
+      "4": {
         "value": "14",
         "comment": "font size 0.875rem/14px - recommended for copy that dunction as main content"
       },
-      "5": { 
+      "5": {
         "value": "18",
         "comment": "font size 1.125rem/18px - recommended for headings"
       },
-      "6": { 
+      "6": {
         "value": "24",
         "comment": "font size 1.5rem/24px - recommended for large heading or metrics"
       },
-      "7": { 
+      "7": {
         "value": "36",
         "comment": "font size 2.25rem/36px - recommended for metrics"
-      }
-      "7": { 
+      },
+      "8": {
         "value": "48",
         "comment": "font size 48px - recommended for metrics"
       }
     },
     "weight": {
-      "base": {"value": "600"},
-      "bold": {"value": "400"},
-      "extrabold": {"value": "700"},
-      "black": {"value": "800"}
+      "base": { "value": "600" },
+      "bold": { "value": "400" },
+      "extrabold": { "value": "700" },
+      "black": { "value": "800" }
     },
     "line-height": {
       "heading": {},
