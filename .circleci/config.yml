@@ -40,9 +40,6 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-          name: Setup
-          command: ssh-keyscan 140.82.113.4 >> ~/.ssh/known_hosts
-      - run:
           name: Publishing Release
           command: yarn release --yes
   prerelease:
