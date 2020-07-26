@@ -40,7 +40,7 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-        name: Setup
+          name: Setup
           ssh-keyscan $Samsoedien >> ~/.ssh/known_hosts
       - run:
           name: Publishing Release
