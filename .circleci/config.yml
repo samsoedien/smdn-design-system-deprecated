@@ -30,7 +30,7 @@ jobs:
           name: Run Unit & Integration Tests
           command: yarn test:ci
       - store_test_results:
-          path: test-results
+          path: tests/test-results
       - store_artifacts:
           path: test-results
   release:
