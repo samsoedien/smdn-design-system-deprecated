@@ -23,9 +23,6 @@ jobs:
       - run:
           name: Run Build
           command: yarn build
-      - run:
-          name: Publishing Release
-          command: yarn release --yes
       - persist_to_workspace:
           root: .
           paths: .
@@ -43,9 +40,6 @@ jobs:
       - checkout
       - attach_workspace:
           at: .
-      # - run:
-      #     name: Avoid hosts unknown for github
-      #     command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: Publishing Release
           command: yarn release --yes
