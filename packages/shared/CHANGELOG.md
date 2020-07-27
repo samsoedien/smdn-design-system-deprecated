@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.3.2...v0.3.3) (2020-07-27)
+
+
+### Bug Fixes
+
+* improve testUtils ([7fc19c4](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/7fc19c497ebcc4bc5573dcb82550e68af55429e9))
+
+
+
+
+
 ## [0.3.2](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.3.1...v0.3.2) (2020-07-27)
 
 **Note:** Version bump only for package @smdn/shared

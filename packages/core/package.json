@@ -1,6 +1,6 @@
 {
   "name": "@smdn/core",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [],
@@ -21,8 +21,8 @@
     "styled-components": ">= 5"
   },
   "dependencies": {
-    "@smdn/icons": "^0.3.2",
-    "@smdn/shared": "^0.3.2",
+    "@smdn/icons": "^0.3.3",
+    "@smdn/shared": "^0.3.3",
     "@smdn/tokens": "^0.3.2",
     "@types/styled-components": "^5.1.1",
     "enzyme": "^3.11.0",
