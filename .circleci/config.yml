@@ -39,9 +39,9 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      # - run:
-      #     name: Test SSH
-      #     command: ssh git@github.com
+          - run:
+            name: Avoid hosts unknown for github
+            command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: Publishing Release
           command: yarn release --yes
