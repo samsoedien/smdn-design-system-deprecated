@@ -1,6 +1,6 @@
 {
   "name": "@smdn/core",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [],
@@ -29,5 +29,5 @@
     "jest-styled-components": "^7.0.2",
     "prop-types": "^15.7.2"
   },
-  "gitHead": "27434286eba934f3b974d639c33b5598cbce5905"
+  "gitHead": "235cce829d9facf04be13271ae371f2fcfbb8e87"
 }
