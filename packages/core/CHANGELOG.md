@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.5](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.2.0-alpha.4...v0.2.0-alpha.5) (2020-07-27)
+
+
+### Features
+
+* add blockquote component ([1c758f6](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/1c758f6b4be94ce924ac94f798cb7a8553e15d95))
+
+
+
+
+
 # [0.2.0-alpha.4](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.2.0-alpha.3...v0.2.0-alpha.4) (2020-07-27)
 
 **Note:** Version bump only for package @smdn/core
