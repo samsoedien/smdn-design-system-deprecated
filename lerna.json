@@ -2,12 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.3.4",
+  "version": "0.3.5",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "registry": "https://registry.npmjs.org",
   "command": {
     "publish": {
+      "registry": "https://registry.npmjs.org",
       "message": "chore(release): publish %s [ci skip]",
       "conventionalCommits": true,
       "allowBranch": [
