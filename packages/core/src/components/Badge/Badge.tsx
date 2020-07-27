@@ -2,7 +2,11 @@ import React from 'react'
 // import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledBadge = styled.span``
+import { TokenColorPaletteGrey05 } from '@smdn/tokens'
+
+const StyledBadge = styled.span`
+  background-color: ${TokenColorPaletteGrey05};
+`
 
 export interface IBadgeProps {}
 
