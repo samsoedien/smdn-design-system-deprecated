@@ -1,6 +1,6 @@
 {
   "name": "@smdn/shared",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -18,5 +18,6 @@
     "react": ">= 16",
     "react-dom": ">= 16",
     "styled-components": ">= 5"
-  }
+  },
+  "gitHead": "c52ad0ee1f473ce2b51a0f0318e4bb8fa3a27797"
 }
