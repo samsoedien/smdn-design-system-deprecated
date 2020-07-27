@@ -2,7 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledCode = styled.code``
+import { TokenColorPaletteGrey05 } from '@smdn/tokens'
+
+const StyledCode = styled.code`
+  background-color: ${TokenColorPaletteGrey05};
+  font-family: monospace;
+`
 
 export interface ICodeProps {
   children: React.ReactNode

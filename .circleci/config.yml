@@ -40,8 +40,6 @@ jobs:
       - checkout
       - attach_workspace:
           at: .
-      # - run: git config --global user.email ${EMAIL}
-      # - run: git config --global user.name ${GIT_AUTHOR_NAME}
       - run:
           name: Publishing Release
           command: yarn release --yes
