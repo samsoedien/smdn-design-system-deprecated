@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "description": "Design system with reusable UI components & design tokens for personal projects",
   "main": "index.js",
-  "repository": "git@github.com:samsoedien/smdn-design-system.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samsoedien/smdn-design-system.git"
+  },
   "author": "Samsoedien <contact@samsoedien.com> (https://samsoedien.com)",
   "license": "MIT",
   "contributors": [
