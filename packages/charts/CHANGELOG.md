@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/charts/compare/v0.2.0-alpha.5...v0.2.0) (2020-07-27)
+
+**Note:** Version bump only for package @smdn/charts
+
+
+
+
+
+
 # [0.2.0-alpha.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/charts/compare/v0.2.0-alpha.2...v0.2.0-alpha.3) (2020-07-27)
 
 **Note:** Version bump only for package @smdn/charts
