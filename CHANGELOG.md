@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/samsoedien/smdn-design-system/compare/v0.3.3...v0.3.4) (2020-07-27)
+
+
+### Bug Fixes
+
+* test automated release patch version increase ([b3b2c41](https://github.com/samsoedien/smdn-design-system/commit/b3b2c413c69516f1281237f7f61e6248e27f9d68))
+
+
+
+
+
+
 ## [0.3.3](https://github.com/samsoedien/smdn-design-system/compare/v0.3.2...v0.3.3) (2020-07-27)
 
 
