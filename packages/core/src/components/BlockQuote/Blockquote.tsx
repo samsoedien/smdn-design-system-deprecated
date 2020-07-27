@@ -8,6 +8,7 @@ const StyledBlockquote = styled.blockquote`
   background-color: ${TokenColorPaletteGrey05};
   padding: 24px;
   border-left: 6px solid ${TokenColorPaletteGrey10};
+  margin: 12px 0;
 `
 
 export interface IBlockquoteProps {

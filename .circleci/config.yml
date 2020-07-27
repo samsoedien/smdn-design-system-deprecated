@@ -41,6 +41,9 @@ jobs:
       - attach_workspace:
           at: .
       - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/rep
+      - run:
           name: Publishing Release
           command: yarn release --yes
   prerelease:
