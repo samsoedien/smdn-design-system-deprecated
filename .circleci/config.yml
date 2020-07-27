@@ -34,9 +34,9 @@ jobs:
     docker:
       - image: circleci/node:12
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - 'eb:f6:49:b3:3a:2a:5d:a8:98:86:4b:22:3f:1f:d2:e5'
+      # - add_ssh_keys:
+      #     fingerprints:
+      #       - 'eb:f6:49:b3:3a:2a:5d:a8:98:86:4b:22:3f:1f:d2:e5'
       - checkout
       - attach_workspace:
           at: .
