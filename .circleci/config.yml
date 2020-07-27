@@ -40,6 +40,9 @@ jobs:
       - attach_workspace:
           at: .
       - run:
+          name: Test SSH
+          command: ssh git@github.com
+      - run:
           name: Publishing Release
           command: yarn release --yes
   prerelease:
