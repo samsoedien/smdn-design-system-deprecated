@@ -32,3 +32,4 @@ yarn-error.log*
 .jest-test-results.json
 tsconfig.tsbuildinfo
 test-results
+lerna-debug.log
