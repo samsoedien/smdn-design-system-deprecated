@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0-alpha.0 (2020-08-01)
+
+
+### Bug Fixes
+
+* test automated prerelease ([66bb877](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/66bb8776a44b5945bb42d4235c328aca04422677))
+* test automated release patch version increase ([b3b2c41](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/b3b2c413c69516f1281237f7f61e6248e27f9d68))
+* test automated release to npm ([44b9054](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/44b90541dba3f57481ae530fe872dc8b3e7b22d7))
+* **button:** implement button tokens ([4e60647](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/4e606477879543c0089020b5bad71a77d61c3298))
+* **callout:** add styling & color variants ([3a32037](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/3a320378ae60340644597bdd4ee2b3dcf0bcc3a3))
+* **core:** add design tokens to dependencies ([ccc5e03](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/ccc5e034d4369139afc8e5ec788969964c17383a))
+* **core:** add styles & component variants ([599ed6e](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/599ed6e522e06cbae322ddd337b516dd81a27ab5))
+* **core:** style more components w/ tokens ([5c1517f](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/5c1517f1d0e35337459d37d61467687f84f8fd63))
+* **core:** update component styles w/ tokens ([d3d809e](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/d3d809e9be585576f58399a6bb9b74af36bc2fa5))
+* **core:** update stories ([0286302](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/0286302f83eab3ae632e9c02b51d3a295a6b08e0))
+* **layouts:** finetune dashbaord styles ([01783d4](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/01783d4f47054d0f75fbf541d3a07f3f31946016))
+* resolve typescript compile errors ([b697fcb](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/b697fcbcd408f6fb9c1a0d3b6ea9987030b38889))
+
+
+### Features
+
+* add blockquote component ([1c758f6](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/1c758f6b4be94ce924ac94f798cb7a8553e15d95))
+* **core:** add badge and breadcrumbs components ([abe7521](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/abe752169275ddfff49501f2144c1f3fee9c87ce))
+* **core:** add button component ([3db5851](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/3db5851b3960e5ea44c3ca907605b3cece037392))
+* **core:** add combobox component ([d73c424](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/d73c424bd8c707e1fd5f93d641e8d248cf6c7585))
+* **core:** add dropdown & tabs components ([b405af3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/b405af3ee0a08c5612a19867fcfa2e3d39444feb))
+* **core:** add ui components ([ee2b95d](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/ee2b95d8af00c271438904f64b2a8b3da7a8fa26))
+* **core:** create select component ([a0c52ad](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/a0c52ad57e9231563d0f83197d579684715cc68a))
+* **core:** scaffold comment and dialog components ([7eba3ed](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/7eba3ed566b0300ac7bcbd941128237e0f174710))
+* **core:** scaffold tab, code & accordion components ([30442dd](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/30442dda9561129637e1ea751c0aa4146e952a24))
+* **icons:** setup icons workspace & add icon component ([40097b0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/40097b076ef6307ad0e8ba04aaa9479fd9b75f39))
+
+
+
+
+
 ## [0.3.10-alpha.0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.3.9...v0.3.10-alpha.0) (2020-08-01)
 
 

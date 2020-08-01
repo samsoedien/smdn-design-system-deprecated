@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0-alpha.0 (2020-08-01)
+
+
+### Bug Fixes
+
+* improve testUtils ([7fc19c4](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/7fc19c497ebcc4bc5573dcb82550e68af55429e9))
+
+
+### Features
+
+* **shared:** add design tokens & utils ([0aa7974](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/0aa797403a98aa5aa301007bb8987510055da347))
+* **tokens:** add design tokens primitives & aliases ([2d4e096](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/2d4e09693149f5e7859a8841dbdcaa95ecbb93d2))
+
+
+
+
+
 ## [0.3.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.3.2...v0.3.3) (2020-07-27)
 
 
