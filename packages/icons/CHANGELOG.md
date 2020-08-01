@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0-alpha.0 (2020-08-01)
+
+
+### Features
+
+* **icons:** setup icons workspace & add icon component ([40097b0](https://github.com/samsoedien/smdn-design-system/tree/master/packages/icons/commit/40097b076ef6307ad0e8ba04aaa9479fd9b75f39))
+
+
+
+
+
 ## [0.3.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/icons/compare/v0.3.2...v0.3.3) (2020-07-27)
 
 **Note:** Version bump only for package @smdn/icons
