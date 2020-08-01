@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.3.9",
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -10,21 +8,8 @@
       "registry": "https://registry.npmjs.org",
       "message": "chore(release): publish %s [ci skip]",
       "conventionalCommits": true,
-      "allowBranch": [
-        "master",
-        "next",
-        "feature/*"
-      ],
-      "ignoreChanges": [
-        "*.md",
-        "*.story.tsx",
-        "*.story.mdx",
-        "*.test.ts",
-        "*.test.tsx",
-        "*.snap",
-        "*.d.ts"
-      ],
-      "conventionalGraduate": true
+      "allowBranch": ["master", "next", "feature/*"],
+      "ignoreChanges": ["*.md", "*.story.tsx", "*.story.mdx", "*.test.ts", "*.test.tsx", "*.snap", "*.d.ts"]
     }
   }
 }

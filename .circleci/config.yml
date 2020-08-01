@@ -41,7 +41,7 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-          name: Authenticate with registry
+          name: Authenticate with NPM registry
           command: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
       - run:
           name: Publishing Release
@@ -50,8 +50,12 @@ jobs:
     docker:
       - image: circleci/node:12
     steps:
+      - checkout
       - attach_workspace:
           at: .
+      - run:
+          name: Authenticate with NPM registry
+          command: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
       - run:
           name: Publishing Prerelease
           command: yarn prerelease --yes

@@ -34,7 +34,8 @@
     "test:coverage": "yarn test --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release": "yarn lerna publish"
+    "release": "yarn lerna publish --conventional-graduate",
+    "prerelease": "yarn lerna publish --conventional-prerelease"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
