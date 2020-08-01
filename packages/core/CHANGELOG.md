@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.3.8...v0.3.9) (2020-08-01)
+
+
+### Bug Fixes
+
+* test automated release to npm ([44b9054](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/commit/44b90541dba3f57481ae530fe872dc8b3e7b22d7))
+
+
+
+
+
 ## [0.3.8](https://github.com/samsoedien/smdn-design-system/tree/master/packages/core/compare/v0.3.7...v0.3.8) (2020-08-01)
 
 **Note:** Version bump only for package @smdn/core
