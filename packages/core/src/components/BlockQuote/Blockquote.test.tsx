@@ -8,7 +8,7 @@ const defaultProps = {}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<Blockquote {...setupProps} />)
+  return shallow(<Blockquote {...setupProps}>Blockquote</Blockquote>)
 }
 
 describe('BlockquoteComponent', () => {

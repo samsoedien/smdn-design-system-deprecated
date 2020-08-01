@@ -42,7 +42,7 @@ jobs:
           at: .
       - run:
           name: Authenticate with registry
-          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/rep
+          command: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
       - run:
           name: Publishing Release
           command: yarn release --yes
