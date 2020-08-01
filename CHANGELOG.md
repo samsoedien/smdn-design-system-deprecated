@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.1](https://github.com/samsoedien/smdn-design-system/compare/v0.2.0-alpha.0...v0.2.0-alpha.1) (2020-08-01)
+
+
+### Bug Fixes
+
+* test gpg signed commit for allowing squashed pull requests ([2f7a6d8](https://github.com/samsoedien/smdn-design-system/commit/2f7a6d805fa845f38597e36748893ec3ad6662c0))
+
+
+
+
+
 # 0.2.0-alpha.0 (2020-08-01)
 
 
