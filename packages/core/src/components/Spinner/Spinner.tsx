@@ -12,7 +12,7 @@ const StyledSpinner = styled.div`
   align-items: center;
 `
 
-const StyledSpinnerLoader = styled.div`
+const StyledSpinnerLoader = styled.div<Partial<ISpinnerProps>>`
   border: 8px solid ${TokenColorPaletteGrey05}; /* Light grey */
   border-top: 8px solid #3498db; /* Blue */
   border-radius: 50%;

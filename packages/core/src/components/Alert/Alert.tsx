@@ -30,11 +30,11 @@ export interface IAlertProps {
 }
 
 const Alert: React.FC<IAlertProps> = ({ color, isClosable, children }) => {
-  const handleOnClose = () => console.log('closing alert')
+  // const handleOnClose = () => console.log('closing alert')
   return (
     <StyledAlert color={color} role="alert" className="smdn-alert" data-test="alert-component">
       {children}
-      {isClosable && <CloseButton onClose={handleOnClose()} />}
+      {isClosable && <CloseButton />}
     </StyledAlert>
   )
 }

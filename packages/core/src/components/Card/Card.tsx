@@ -58,7 +58,7 @@ Card.defaultProps = {
 }
 
 Card.propTypes = {
-  color: PropTypes.oneOf<Color>(['white', 'grey']),
+  color: PropTypes.oneOf<Color | 'white' | 'grey'>(['white', 'grey']),
   elevation: PropTypes.number,
   withBorder: PropTypes.bool,
   children: PropTypes.node.isRequired,

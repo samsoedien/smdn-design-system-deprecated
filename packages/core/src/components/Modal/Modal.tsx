@@ -47,7 +47,7 @@ export interface IModalProps {
 
 const Modal: React.FC<IModalProps> = ({ children }) => {
   return (
-    <StyledModal tabindex="-1" className="smdn-modal" data-test="modal-component">
+    <StyledModal tabIndex={-1} className="smdn-modal" data-test="modal-component">
       <StyledModelDialog>
         <StyledModalContent>
           <StyledModalContentHeader>
