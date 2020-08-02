@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.2](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.2.0-alpha.1...v0.2.0-alpha.2) (2020-08-02)
+
+
+### Features
+
+* scaffold and style ui components ([e7b124b](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/e7b124b66c7f37c36d2cd83f7b6f50e578fe0eff))
+
+
+
+
+
 # 0.2.0-alpha.0 (2020-08-01)
 
 

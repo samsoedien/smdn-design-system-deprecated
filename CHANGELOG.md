@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.2](https://github.com/samsoedien/smdn-design-system/compare/v0.2.0-alpha.1...v0.2.0-alpha.2) (2020-08-02)
+
+
+### Bug Fixes
+
+* test gpg signed commit for allowing squashed pull requests ([139ba63](https://github.com/samsoedien/smdn-design-system/commit/139ba63798f68b681c4aabe0a33b2ddad20e631f))
+
+
+### Features
+
+* scaffold and style ui components ([e7b124b](https://github.com/samsoedien/smdn-design-system/commit/e7b124b66c7f37c36d2cd83f7b6f50e578fe0eff))
+* scaffold and style ui components ([5a00eaa](https://github.com/samsoedien/smdn-design-system/commit/5a00eaaf744334aea668e8c0623928b8f219b793))
+
+
+
+
+
 # [0.2.0-alpha.1](https://github.com/samsoedien/smdn-design-system/compare/v0.2.0-alpha.0...v0.2.0-alpha.1) (2020-08-01)
 
 
