@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledBreadcrumbs = styled.nav<IBreadcrumbsProps>``
+const StyledBreadcrumbs = styled.nav<Partial<IBreadcrumbsProps>>``
 
-const StyledBreadcrumbList = styled.ol<IBreadcrumbsProps>`
+const StyledBreadcrumbList = styled.ol<Partial<IBreadcrumbsProps>>`
   list-style-type: none;
 `
 
-const StyledBreadcrumbItem = styled.li<IBreadcrumbsProps>`
+const StyledBreadcrumbItem = styled.li<Partial<IBreadcrumbsProps>>`
   display: inline-block;
   margin-right: 6px;
 

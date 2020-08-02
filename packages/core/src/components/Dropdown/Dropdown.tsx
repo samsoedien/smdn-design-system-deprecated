@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { TokenColorPaletteGrey05 } from '@smdn/tokens'
 import { Size } from '@smdn/shared'
 
-const StyledDropdown = styled.div`
+const StyledDropdown = styled.div<Partial<IDropdownProps>>`
   position: relative;
 `
 

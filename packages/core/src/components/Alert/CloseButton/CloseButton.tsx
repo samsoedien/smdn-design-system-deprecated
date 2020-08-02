@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledCloseButton = styled.button`
+const StyledCloseButton = styled.button<Partial<ICloseButtonProps>>`
   position: absolute;
   top: 12px;
   right: 12px;
@@ -17,14 +17,13 @@ const StyledCloseButton = styled.button`
   }
 `
 export interface ICloseButtonProps {
-  onClose: () => void
+  onClose?: () => void
 }
 
 const CloseButton: React.FC<ICloseButtonProps> = ({ onClose, ...props }) => {
   return (
     <StyledCloseButton
       {...props}
-      onClick={() => onClose()}
       type="button"
       aria-label="Close"
       className="smdn-close-button"
@@ -35,8 +34,12 @@ const CloseButton: React.FC<ICloseButtonProps> = ({ onClose, ...props }) => {
   )
 }
 
+CloseButton.defaultProps = {
+  onClose: undefined,
+}
+
 CloseButton.propTypes = {
-  onClose: PropTypes.func.isRequired,
+  onClose: PropTypes.func,
 }
 
 export default CloseButton

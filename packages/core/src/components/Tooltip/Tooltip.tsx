@@ -5,14 +5,14 @@ import styled from 'styled-components'
 import { TokenSpacingSmall } from '@smdn/tokens'
 import { Alignment } from '@smdn/shared'
 
-const StyledTooltipContainer = styled.div`
+const StyledTooltipContainer = styled.div<Partial<ITooltipProps>>`
   position: absolute;
   display: none;
   top: 24px;
   background-color: #efefef;
   padding: ${TokenSpacingSmall};
 `
-const StyledTooltip = styled.div<ITooltipProps>`
+const StyledTooltip = styled.div<Partial<ITooltipProps>>`
   position: absolute;
 
   &:hover ${StyledTooltipContainer} {
