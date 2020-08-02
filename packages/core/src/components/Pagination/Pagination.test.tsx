@@ -2,19 +2,21 @@ import React from 'react'
 import { shallow } from 'enzyme'
 
 import { findByTestAttr } from '@smdn/shared'
-import Badge from './index'
+import Pagination from './index'
 
-const defaultProps = {}
+const defaultProps = {
+  pageCount: 3,
+}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<Badge {...setupProps}>Badge Label</Badge>)
+  return shallow(<Pagination {...setupProps} />)
 }
 
-describe('BadgeComponent', () => {
+describe('PaginationComponent', () => {
   it('renders without error', () => {
     const wrapper = setup()
-    const component = findByTestAttr(wrapper, 'badge-component')
+    const component = findByTestAttr(wrapper, 'pagination-component')
     expect(component).toHaveLength(1)
   })
 })

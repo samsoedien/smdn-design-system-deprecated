@@ -9,10 +9,10 @@ import {
   TokenSpacingXSmall,
   TokenShadowLarge,
 } from '@smdn/tokens'
+import { Color } from '@smdn/shared'
 
-export type Color = 'white' | 'grey'
 export interface ICardProps {
-  color?: Color
+  color?: Color | 'white' | 'grey'
   elevation?: number
   withBorder?: boolean
   children: React.ReactNode
@@ -32,6 +32,7 @@ const StyledCard = styled.div<ICardProps>`
   min-height: ${TokenSizingXLarge};
   border-radius: ${TokenSpacingXSmall};
   box-shadow: ${TokenShadowLarge};
+
   /* width: 100%; */
   text-align: center;
 `
@@ -57,7 +58,7 @@ Card.defaultProps = {
 }
 
 Card.propTypes = {
-  color: PropTypes.oneOf<Color>(['white', 'grey']),
+  color: PropTypes.oneOf<Color | 'white' | 'grey'>(['white', 'grey']),
   elevation: PropTypes.number,
   withBorder: PropTypes.bool,
   children: PropTypes.node.isRequired,
