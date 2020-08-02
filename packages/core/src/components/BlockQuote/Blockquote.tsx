@@ -12,7 +12,7 @@ const StyledBlockquote = styled.blockquote`
   ${(props) =>
     props.color === 'success' &&
     css`
-      background-color: lightblue;
+      background-color: blue;
     `};
 `
 
