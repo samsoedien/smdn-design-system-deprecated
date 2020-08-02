@@ -2,7 +2,6 @@ import Accordion from './Accordion'
 import Alert from './Alert'
 import Avatar from './Avatar'
 import Badge from './Badge'
-import Blockquote from './Blockquote'
 import Breadcrumbs from './Breadcrumbs'
 import Button from './Button'
 import Callout from './Callout'
@@ -31,7 +30,6 @@ export {
   Alert,
   Avatar,
   Badge,
-  Blockquote,
   Breadcrumbs,
   Button,
   Callout,
