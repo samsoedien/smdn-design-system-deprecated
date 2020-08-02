@@ -1,6 +1,11 @@
 {
   "processors": ["stylelint-processor-styled-components"],
-  "extends": ["stylelint-config-standard", "stylelint-config-css-modules", "stylelint-config-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules",
+    "stylelint-config-styled-components",
+    "stylelint-config-prettier"
+  ],
   "plugins": ["stylelint-prettier"],
   "rules": {
     "at-rule-empty-line-before": null,
@@ -10,6 +15,7 @@
     "at-rule-no-unknown": null,
     "no-descending-specificity": null,
     "color-no-invalid-hex": null,
+    "value-keyword-case": null,
     "prettier/prettier": true
   }
 }

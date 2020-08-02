@@ -10,7 +10,11 @@ export default {
   decorators: [withKnobs],
 }
 
-export const DefaultTooltipComponent = () => <Tooltip>Hello world</Tooltip>
+export const DefaultTooltipComponent = () => (
+  <Tooltip tooltipText="hello world">
+    <button type="button">Hello</button>
+  </Tooltip>
+)
 
 DefaultTooltipComponent.story = {
   name: 'Tooltip - Default',

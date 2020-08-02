@@ -96,7 +96,7 @@ export interface IButtonProps {
   onClick?: () => void
 }
 
-const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, disabled, children }) => {
+const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, disabled, children, ...props }) => {
   const onClickHandler = () => console.log('clicked')
   return (
     <StyledButton
@@ -108,6 +108,7 @@ const Button: React.FC<IButtonProps> = ({ appearance, size, isLoading, type, dis
       onClick={() => onClickHandler()}
       className="smdn-b-button"
       data-test="button-component"
+      {...props}
     >
       {children}
     </StyledButton>

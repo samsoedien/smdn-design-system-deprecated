@@ -2,19 +2,19 @@ import React from 'react'
 import { shallow } from 'enzyme'
 
 import { findByTestAttr } from '@smdn/shared'
-import Badge from './index'
+import Spinner from './index'
 
 const defaultProps = {}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
-  return shallow(<Badge {...setupProps}>Badge Label</Badge>)
+  return shallow(<Spinner {...setupProps} />)
 }
 
-describe('BadgeComponent', () => {
+describe('SpinnerComponent', () => {
   it('renders without error', () => {
     const wrapper = setup()
-    const component = findByTestAttr(wrapper, 'badge-component')
+    const component = findByTestAttr(wrapper, 'spinner-component')
     expect(component).toHaveLength(1)
   })
 })

@@ -4,7 +4,12 @@ import { shallow } from 'enzyme'
 import { findByTestAttr } from '@smdn/shared'
 import Breadcrumbs from './index'
 
-const defaultProps = {}
+const defaultProps = {
+  breadcrumbs: [
+    { label: 'home', href: '/' },
+    { label: 'products', href: '/products' },
+  ],
+}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
