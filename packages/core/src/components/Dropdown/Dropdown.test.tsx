@@ -4,7 +4,15 @@ import { shallow } from 'enzyme'
 import { findByTestAttr } from '@smdn/shared'
 import Dropdown from './index'
 
-const defaultProps = {}
+const defaultProps = {
+  buttonLabel: 'dropdown',
+  dropdownItems: [
+    {
+      label: 'action',
+      href: '/action',
+    },
+  ],
+}
 
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props }
