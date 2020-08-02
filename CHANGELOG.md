@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.3](https://github.com/samsoedien/smdn-design-system/compare/v0.2.0-alpha.2...v0.2.0-alpha.3) (2020-08-02)
+
+
+### Bug Fixes
+
+* squash into master to test automate release to npm ([ba3d569](https://github.com/samsoedien/smdn-design-system/commit/ba3d56943495a6e4ddb58c543601766bf4a0f368))
+
+
+
+
+
 # [0.2.0-alpha.2](https://github.com/samsoedien/smdn-design-system/compare/v0.2.0-alpha.1...v0.2.0-alpha.2) (2020-08-02)
 
 
