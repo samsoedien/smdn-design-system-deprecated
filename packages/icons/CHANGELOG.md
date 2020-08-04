@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.4](https://github.com/samsoedien/smdn-design-system/tree/master/packages/icons/compare/v0.2.0-alpha.3...v0.2.0-alpha.4) (2020-08-04)
+
+
+### Features
+
+* **icons:** add bootstrap 5 icons ([e0f68dc](https://github.com/samsoedien/smdn-design-system/tree/master/packages/icons/commit/e0f68dcb0cfcfedf9ee30962dd9ae48b76eab38f))
+
+
+
+
+
 # [0.2.0-alpha.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/icons/compare/v0.2.0-alpha.2...v0.2.0-alpha.3) (2020-08-02)
 
 **Note:** Version bump only for package @smdn/icons
