@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import { TokenColorPaletteGrey05, TokenSpacingSmall } from '@smdn/tokens'
 
@@ -12,7 +12,7 @@ const StyledPaginationList = styled.ul`
   list-style-type: none;
 `
 
-const StyledPaginationItem = styled.li`
+const StyledPaginationItem = styled.li<any>`
   border: 1px solid grey;
   display: inline-block;
   padding: ${TokenSpacingSmall};
@@ -20,6 +20,12 @@ const StyledPaginationItem = styled.li`
   &:hover {
     background-color: ${TokenColorPaletteGrey05};
   }
+
+  ${(props) =>
+    props.active &&
+    css`
+      background-color: lightblue;
+    `}
 `
 
 const StyledPaginationLink = styled.a`
@@ -32,24 +38,27 @@ export interface IPaginationProps {
   compressed?: boolean
 }
 
-const Pagination: React.FC<IPaginationProps> = ({ compressed }) => {
+const Pagination: React.FC<IPaginationProps> = ({ pageCount, compressed }) => {
+  const [activePage, setActivePage] = useState<number>(2)
   return (
     <StyledPagination aria-label="Page navigation" className="smdn-pagination" data-test="pagination-component">
       <StyledPaginationList>
         <StyledPaginationItem>
-          <StyledPaginationLink href="#">{compressed ? '<' : 'Previous'}</StyledPaginationLink>
+          <StyledPaginationLink onClick={() => setActivePage(activePage - 1)} href="#">
+            {compressed ? <span>&laquo;</span> : 'Previous'}
+          </StyledPaginationLink>
         </StyledPaginationItem>
+        {[...Array(pageCount)].map((_, index) => (
+          <StyledPaginationItem key={index} active={index + 1 === activePage}>
+            <StyledPaginationLink onClick={() => setActivePage(index + 1)} href="#">
+              {index + 1}
+            </StyledPaginationLink>
+          </StyledPaginationItem>
+        ))}
         <StyledPaginationItem>
-          <StyledPaginationLink href="#">1</StyledPaginationLink>
-        </StyledPaginationItem>
-        <StyledPaginationItem>
-          <StyledPaginationLink href="#">2</StyledPaginationLink>
-        </StyledPaginationItem>
-        <StyledPaginationItem>
-          <StyledPaginationLink href="#">3</StyledPaginationLink>
-        </StyledPaginationItem>
-        <StyledPaginationItem>
-          <StyledPaginationLink href="#">{compressed ? '>' : 'Next'}</StyledPaginationLink>
+          <StyledPaginationLink onClick={() => setActivePage(activePage + 1)} href="#">
+            {compressed ? <span>&raquo;</span> : 'Next'}
+          </StyledPaginationLink>
         </StyledPaginationItem>
       </StyledPaginationList>
     </StyledPagination>
@@ -61,6 +70,7 @@ Pagination.defaultProps = {
 }
 
 Pagination.propTypes = {
+  pageCount: PropTypes.number.isRequired,
   compressed: PropTypes.bool,
 }
 
