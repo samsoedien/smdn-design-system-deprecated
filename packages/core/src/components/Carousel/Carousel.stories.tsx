@@ -25,3 +25,21 @@ DefaultCarouselComponent.story = {
     jest: ['Carousel.test.tsx'],
   },
 }
+
+export const IndicatorsCarouselComponent = () => <Carousel slides={slides} indicators />
+
+IndicatorsCarouselComponent.story = {
+  name: 'Carousel - Indicators',
+  parameters: {
+    jest: ['Carousel.test.tsx'],
+  },
+}
+
+export const CustomIntervalCarouselComponent = () => <Carousel slides={slides} interval={3000} />
+
+CustomIntervalCarouselComponent.story = {
+  name: 'Carousel - Interval',
+  parameters: {
+    jest: ['Carousel.test.tsx'],
+  },
+}
