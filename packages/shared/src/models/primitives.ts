@@ -3,3 +3,5 @@ export type Color = 'primary' | 'secondary' | 'success' | 'danger' | 'warning' |
 export type Size = 'xx-small' | 'x-small' | 'small' | 'medium' | 'large' | 'x-large' | 'xx-large'
 
 export type Alignment = 'top' | 'bottom' | 'left' | 'right'
+
+export type Orientation = 'horizontal' | 'vertical'

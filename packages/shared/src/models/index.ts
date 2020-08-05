@@ -1,1 +1,1 @@
-export { Color, Size, Alignment } from './primitives'
+export { Color, Size, Alignment, Orientation } from './primitives'

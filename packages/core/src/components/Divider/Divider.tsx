@@ -2,15 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { TokenColorBackgroundGrey25 } from '@smdn/tokens'
+import { TokenSpacingXSmall, TokenSpacingNone, TokenColorBackgroundGrey25 } from '@smdn/tokens'
+import { Orientation } from '@smdn/shared'
 
-const StyledDivider = styled.hr<Partial<IDividerProps>>`
-  border: none;
-  height: 1px;
-  background-color: ${TokenColorBackgroundGrey25};
+const StyledDivider = styled.div<Partial<IDividerProps>>`
+  display: inline;
 `
 
-export type Orientation = 'horizontal' | 'vertical'
+const StyledDividerHorizontal = styled.hr<Partial<IDividerProps>>`
+  width: 100%;
+  border: none;
+  border-top: 0.5px solid ${TokenColorBackgroundGrey25};
+`
+
+const StyledDividerVertical = styled.div`
+  display: inline-block;
+  height: 100%;
+  min-height: 24px;
+  border-left: 0.5px solid ${TokenColorBackgroundGrey25};
+  margin: ${TokenSpacingNone}, ${TokenSpacingXSmall};
+`
 
 export interface IDividerProps {
   label?: string
@@ -19,8 +30,14 @@ export interface IDividerProps {
 
 const Divider: React.FC<IDividerProps> = ({ label, orientation }) => {
   return (
-    <StyledDivider orientation={orientation} className="smdn-divider" data-test="divider-component">
-      {label && <span>label</span>}
+    <StyledDivider>
+      {orientation === 'horizontal' ? (
+        <StyledDividerHorizontal orientation={orientation} className="smdn-divider" data-test="divider-component">
+          {label && <span>label</span>}
+        </StyledDividerHorizontal>
+      ) : (
+        <StyledDividerVertical />
+      )}
     </StyledDivider>
   )
 }
