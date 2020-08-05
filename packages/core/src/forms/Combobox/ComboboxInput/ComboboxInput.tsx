@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import Tag from '../../Tag'
+import Tag from '../../../components/Tag'
 
 const StyledComboboxInput = styled.div<Partial<IComboboxInputProps>>``
 
