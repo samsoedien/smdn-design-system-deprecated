@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.5](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.2.0-alpha.4...v0.2.0-alpha.5) (2020-08-05)
+
+
+### Features
+
+* create searchbar component & add search icon ([157f340](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/commit/157f3404e2006d4f81800351be097dba2f7c520e))
+
+
+
+
+
 # [0.2.0-alpha.3](https://github.com/samsoedien/smdn-design-system/tree/master/packages/shared/compare/v0.2.0-alpha.2...v0.2.0-alpha.3) (2020-08-02)
 
 **Note:** Version bump only for package @smdn/shared
