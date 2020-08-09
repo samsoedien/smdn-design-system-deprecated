@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Search = () => {
+export default () => {
   return (
     <svg
       width="1em"
@@ -21,5 +21,3 @@ const Search = () => {
     </svg>
   )
 }
-
-export default Search

@@ -1,9 +1,10 @@
 import Icon from './Icon'
 
-import ArrowLeft from './components/ArrowLeft'
-import ArrowRight from './components/ArrowRight'
-import Search from './components/Search'
+import ArrowLeftIcon from './components/ArrowLeftIcon'
+import ArrowRightIcon from './components/ArrowRightIcon'
+import CloseIcon from './components/CloseIcon'
+import SearchIcon from './components/SearchIcon'
 
-export { ArrowLeft, ArrowRight, Search }
+export { ArrowLeftIcon, ArrowRightIcon, CloseIcon, SearchIcon }
 
 export default Icon

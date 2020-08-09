@@ -2,7 +2,7 @@ import React, { useState, FormEvent, ChangeEvent } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { Search } from '@smdn/icons'
+import { SearchIcon } from '@smdn/icons'
 import { TokenColorPaletteGrey05, TokenColorPaletteGrey10 } from '@smdn/tokens'
 
 const StyledSearchBar = styled.form``
@@ -51,7 +51,7 @@ const SearchBar: React.FC<ISearchBarProps> = ({ placeholder, withIcon, handleSub
         value={searchValue}
         onChange={(e) => handleChange(e)}
       />
-      <StyledSearchBarButton type="submit">{withIcon ? <Search /> : 'Search'}</StyledSearchBarButton>
+      <StyledSearchBarButton type="submit">{withIcon ? <SearchIcon /> : 'Search'}</StyledSearchBarButton>
     </StyledSearchBar>
   )
 }
