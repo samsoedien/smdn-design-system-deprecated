@@ -23,6 +23,7 @@
     "start": "yarn clean && yarn bootstrap && yarn build && yarn storybook",
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build --stream",
+    "build:icons": "yarn lerna run build --scope @smdn/icons",
     "build:tokens": "yarn lerna run build:tokens",
     "clean": "rimraf packages/**/dist packages/**/lib packages/**/*.tsbuildinfo ",
     "compile": "tsc --noEmit --watch",

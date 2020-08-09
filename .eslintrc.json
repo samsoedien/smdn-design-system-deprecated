@@ -53,6 +53,7 @@
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
-    "react/forbid-prop-types": "warn"
+    "react/forbid-prop-types": "warn",
+    "no-param-reassign": [2, { "props": false }]
   }
 }

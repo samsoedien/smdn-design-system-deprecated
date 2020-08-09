@@ -16,6 +16,6 @@
         "name" : { "value": "Roboto" },
         "ttf"  : { "value": "assets/fonts/Roboto-Regular.ttf" }
       }
-   }
+    }   
   }
 }

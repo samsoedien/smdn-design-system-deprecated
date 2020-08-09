@@ -3,14 +3,7 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 import { CloseIcon } from '@smdn/icons'
-import {
-  TokenColorGreyPalette05,
-  TokenColorBackgroundInfoBase,
-  TokenColorBackgroundSuccessBase,
-  TokenColorBackgroundWarningBase,
-  TokenColorBackgroundDangerBase,
-  TokenSpacingSmall,
-} from '@smdn/tokens'
+import { TokenColorGreyPalette05, TokenColorBackgroundWarningBase, TokenSpacingSmall } from '@smdn/tokens'
 import { Color } from '@smdn/shared'
 
 const StyledBanner = styled.div<IBannerProps>`

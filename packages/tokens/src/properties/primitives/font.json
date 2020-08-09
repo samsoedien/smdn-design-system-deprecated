@@ -1,6 +1,8 @@
 {
   "font": {
-    "family": {},
+    "family": {
+      "sans-serif": { "value": "'Montserrat', sans-serif" }
+    },
     "size": {
       "base": { "value": "1" },
       "1": {

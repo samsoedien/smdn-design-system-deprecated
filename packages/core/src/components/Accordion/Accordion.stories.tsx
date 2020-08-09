@@ -10,7 +10,7 @@ export default {
   decorators: [withKnobs],
 }
 
-export const DefaultAccordionComponent = () => <Accordion>Accordion</Accordion>
+export const DefaultAccordionComponent = () => <Accordion />
 
 DefaultAccordionComponent.story = {
   name: 'Accordion - Default',
