@@ -12,9 +12,11 @@ const StyledAccordion = styled.div`
   padding: 16px;
 `
 
-export interface IAccordionProps {}
+export interface IAccordionProps {
+  allowMultipleOpen?: boolean
+}
 
-const Accordion: React.FC<IAccordionProps> = () => {
+const Accordion: React.FC<IAccordionProps> = ({ allowMultipleOpen }) => {
   const [accordionContent, setAccordionContent] = useState<any>([
     {
       label: 'Can you open this accordion?',
@@ -32,7 +34,7 @@ const Accordion: React.FC<IAccordionProps> = () => {
     setAccordionContent(
       accordionContent.map((content: any, i: any) => {
         if (i === index) content.isOpen = !content.isOpen
-        else content.isOpen = false
+        else if (!allowMultipleOpen) content.isOpen = false
         return content
       }),
     )
@@ -47,6 +49,12 @@ const Accordion: React.FC<IAccordionProps> = () => {
   )
 }
 
-Accordion.propTypes = {}
+Accordion.defaultProps = {
+  allowMultipleOpen: true,
+}
+
+Accordion.propTypes = {
+  allowMultipleOpen: PropTypes.bool,
+}
 
 export default Accordion

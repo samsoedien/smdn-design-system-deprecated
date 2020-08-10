@@ -3,6 +3,10 @@ import { withKnobs } from '@storybook/addon-knobs' // eslint-disable-line
 
 import Dropdown from './index'
 
+import Menu from '../Menu'
+import MenuItem from '../Menu/MenuItem'
+import MenuSeparator from '../Menu/MenuSeparator'
+
 const dropdownData = [
   {
     label: 'action',
@@ -29,6 +33,23 @@ export const DefaultDropdownComponent = () => <Dropdown buttonLabel="dropdown" d
 
 DefaultDropdownComponent.story = {
   name: 'Dropdown - Default',
+  parameters: {
+    jest: ['Dropdown.test.tsx'],
+  },
+}
+export const MenuDropdownComponent = () => (
+  <Dropdown>
+    <Menu>
+      <MenuItem>Account</MenuItem>
+      <MenuSeparator />
+      <MenuItem>Settings</MenuItem>
+      <MenuItem>Log Out</MenuItem>
+    </Menu>
+  </Dropdown>
+)
+
+MenuDropdownComponent.story = {
+  name: 'Dropdown - Menu',
   parameters: {
     jest: ['Dropdown.test.tsx'],
   },

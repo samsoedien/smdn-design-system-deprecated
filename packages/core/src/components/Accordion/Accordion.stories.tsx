@@ -18,3 +18,12 @@ DefaultAccordionComponent.story = {
     jest: ['Accordion.test.tsx'],
   },
 }
+
+export const ToggleAccordionComponent = () => <Accordion allowMultipleOpen={false} />
+
+ToggleAccordionComponent.story = {
+  name: 'Accordion - Toggle',
+  parameters: {
+    jest: ['Accordion.test.tsx'],
+  },
+}

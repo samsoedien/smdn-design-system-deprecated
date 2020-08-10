@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { TokenColorPaletteGrey05 } from '@smdn/tokens'
+import { TokenColorPaletteGrey05, TokenColorTextDefault, TokenFontFamilySansSerif } from '@smdn/tokens'
 import { Size } from '@smdn/shared'
 
 const StyledDropdown = styled.div<Partial<IDropdownProps>>`
+  box-sizing: border-box;
   position: relative;
+  font-family: ${TokenFontFamilySansSerif};
 `
 
 const StyledDropdownMenu = styled.ul`
@@ -15,10 +17,11 @@ const StyledDropdownMenu = styled.ul`
   left: 0;
   width: 320px;
   margin: 0;
+  padding: 0;
   list-style-type: none;
   background-color: #fff;
-  border: solid 1px grey;
   border-radius: 3px;
+  box-shadow: 0 2px 6px 6px rgba(0, 0, 0, 0.1);
 `
 const StyledDropdownItem = styled.li`
   padding: 6px;
@@ -30,6 +33,7 @@ const StyledDropdownItem = styled.li`
 
 const StyledDropdownLink = styled.a`
   text-decoration: none;
+  color: ${TokenColorTextDefault};
   user-select: none;
 `
 
@@ -42,9 +46,10 @@ export interface IDropdownProps {
   buttonLabel: string
   dropdownItems: IDropdownItem[]
   size?: Size
+  children?: React.ReactNode
 }
 
-const Dropdown: React.FC<IDropdownProps> = ({ buttonLabel, dropdownItems, size }) => {
+const Dropdown: React.FC<IDropdownProps> = ({ children, buttonLabel, dropdownItems, size }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState<boolean>(false)
 
   return (
@@ -59,27 +64,30 @@ const Dropdown: React.FC<IDropdownProps> = ({ buttonLabel, dropdownItems, size }
         {buttonLabel}
         <span>{'  v'}</span>
       </button>
-      {showDropdownMenu && (
-        <StyledDropdownMenu>
-          {dropdownItems.map((dropdownItem, index) => (
-            <StyledDropdownItem key={index}>
-              <StyledDropdownLink href={dropdownItem.href}>{dropdownItem.label}</StyledDropdownLink>
-            </StyledDropdownItem>
-          ))}
-        </StyledDropdownMenu>
-      )}
+      {showDropdownMenu &&
+        (children || (
+          <StyledDropdownMenu>
+            {dropdownItems.map((dropdownItem, index) => (
+              <StyledDropdownItem key={index}>
+                <StyledDropdownLink href={dropdownItem.href}>{dropdownItem.label}</StyledDropdownLink>
+              </StyledDropdownItem>
+            ))}
+          </StyledDropdownMenu>
+        ))}
     </StyledDropdown>
   )
 }
 
 Dropdown.defaultProps = {
   size: 'small',
+  children: undefined,
 }
 
 Dropdown.propTypes = {
   buttonLabel: PropTypes.string.isRequired,
   dropdownItems: PropTypes.array.isRequired,
   size: PropTypes.oneOf<Size>(['small']),
+  children: PropTypes.node,
 }
 
 export default Dropdown
