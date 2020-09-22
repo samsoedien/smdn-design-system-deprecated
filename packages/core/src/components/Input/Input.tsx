@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
-import { TokenColorBackgroundGrey10, TokenSpacingSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
+import { TokenColorPaletteGrey10, TokenSpacingSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
 
 const StyledInput = styled.input<IInputProps>`
   width: 100%;
   height: 36px;
-  background-color: ${TokenColorBackgroundGrey10};
+  background-color: ${TokenColorPaletteGrey10};
   border: 0;
   border-radius: ${TokenSizeRadiusSmall};
   font-size: 14px;

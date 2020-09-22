@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
-import { TokenColorBackgroundGrey05, TokenSizingLarge, TokenSizeRadiusSmall, TokenSizeRadiusCircle } from '@smdn/tokens'
+import { TokenColorPaletteGrey05, TokenSizingLarge, TokenSizeRadiusSmall, TokenSizeRadiusCircle } from '@smdn/tokens'
 
 const StyledImage = styled.img<Partial<IAvatarProps>>`
   display: inline-block;
@@ -24,7 +24,7 @@ const StyledImagePlaceholder = styled.div<Partial<IAvatarProps>>`
   /* display: inline-block; */
   width: ${TokenSizingLarge};
   height: ${TokenSizingLarge};
-  background-color: ${TokenColorBackgroundGrey05};
+  background-color: ${TokenColorPaletteGrey05};
   ${(props) =>
     props.type === 'user' &&
     css`

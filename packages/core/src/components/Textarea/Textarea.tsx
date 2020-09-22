@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { TokenColorBackgroundGrey10, TokenSpacingXSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
+import { TokenColorPaletteGrey10, TokenSpacingXSmall, TokenSizeRadiusSmall } from '@smdn/tokens'
 
 export interface ITextareaProps {
   name: string
@@ -16,7 +16,7 @@ export interface ITextareaProps {
 
 const StyledTextarea = styled.textarea<ITextareaProps>`
   width: 100%;
-  background-color: ${TokenColorBackgroundGrey10};
+  background-color: ${TokenColorPaletteGrey10};
   border: none;
   border-radius: ${TokenSizeRadiusSmall};
   text-indent: ${TokenSpacingXSmall};

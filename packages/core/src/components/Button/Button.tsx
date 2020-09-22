@@ -6,10 +6,10 @@ import {
   TokenColorBrandButtonPrimaryBase,
   TokenColorBrandButtonPrimaryHover,
   TokenColorBrandButtonPrimaryDisabled,
-  TokenColorBackgroundGrey05,
-  TokenColorBackgroundGrey10,
+  TokenColorPaletteGrey05,
+  TokenColorPaletteGrey10,
   TokenColorTextDefault,
-  TokenColorTextWhite,
+  TokenColorTextInverse,
   TokenSpacingNone,
   TokenSpacingSmall,
   TokenSizeRadiusSmall,
@@ -36,7 +36,7 @@ const StyledButton = styled.button<IButtonProps>`
     props.appearance === 'primary' &&
     css`
       background-color: ${TokenColorBrandButtonPrimaryBase};
-      color: ${TokenColorTextWhite};
+      color: ${TokenColorTextInverse};
       &:hover,
       &:focus {
         background-color: ${TokenColorBrandButtonPrimaryHover};
@@ -49,10 +49,10 @@ const StyledButton = styled.button<IButtonProps>`
   ${(props) =>
     props.appearance === 'secondary' &&
     css`
-      background-color: ${TokenColorBackgroundGrey05};
+      background-color: ${TokenColorPaletteGrey05};
       &:hover,
       &:focus {
-        background-color: ${TokenColorBackgroundGrey10};
+        background-color: ${TokenColorPaletteGrey10};
         transition: 0.2s;
       }
     `};
@@ -62,7 +62,7 @@ const StyledButton = styled.button<IButtonProps>`
       background-color: transparent;
       &:hover,
       &:focus {
-        background-color: ${TokenColorBackgroundGrey05};
+        background-color: ${TokenColorPaletteGrey05};
         transition: 0.2s;
       }
     `};

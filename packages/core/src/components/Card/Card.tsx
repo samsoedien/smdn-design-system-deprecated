@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 import {
-  TokenColorBackgroundWhite,
-  TokenColorBackgroundGrey05,
+  TokenColorBackgroundAlt,
+  TokenColorPaletteGrey05,
   TokenSizingXLarge,
   TokenSpacingXSmall,
   TokenShadowLarge,
@@ -22,12 +22,12 @@ const StyledCard = styled.div<ICardProps>`
   ${(props) =>
     props.color === 'white' &&
     css`
-      background-color: ${TokenColorBackgroundWhite};
+      background-color: ${TokenColorBackgroundAlt};
     `};
   ${(props) =>
     props.color === 'grey' &&
     css`
-      background-color: ${TokenColorBackgroundGrey05};
+      background-color: ${TokenColorPaletteGrey05};
     `};
   min-height: ${TokenSizingXLarge};
   border-radius: ${TokenSpacingXSmall};

@@ -42,10 +42,16 @@
       },
       "background": {
         "primary": { "value": "{aliases.PALETTE_BLUE_10}", "comment": "Primary page background color" },
-        "dark": { "value": "{aliases.PALETTE_BLUE_65}", "comment": "Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color" }
+        "dark": {
+          "value": "{aliases.PALETTE_BLUE_65}",
+          "comment": "Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color"
+        }
       },
       "accessible": {
-        "base": { "value": "{aliases.PALETTE_BLUE_35}", "comment": "Dark variant of BRAND that is accessible with white" },
+        "base": {
+          "value": "{aliases.PALETTE_BLUE_35}",
+          "comment": "Dark variant of BRAND that is accessible with white"
+        },
         "active": { "value": "{aliases.PALETTE_BLUE_45}", "comment": "Active / Hover state of BRAND_A11Y" }
       },
       "contrast": {},
@@ -59,7 +65,10 @@
     "background": {
       "base": { "value": "{aliases.PALETTE_GREY_05}", "comment": "Default background color for the whole app." },
       "alt": { "value": "{aliases.WHITE}", "comment": "Second default background color for the app." },
-      "alt-inverse": { "value": "{aliases.PALETTE_GREY_95}", "comment": "Alternative background color for dark portions of the app." },
+      "alt-inverse": {
+        "value": "{aliases.PALETTE_GREY_95}",
+        "comment": "Alternative background color for dark portions of the app."
+      },
       "inverse": {
         "value": "{}",
         "comment": "Default background color for dark portions of the app (like Stage Left or tooltips)."
@@ -126,7 +135,10 @@
       "default": { "value": "{aliases.BLACK}", "comment": "Default text color on light background/theme" },
       "inverse": { "value": "{aliases.WHITE}", "comment": "Default text color on dark background/theme" },
       "weak": { "value": "{aliases.PALETTE_GREY_75}", "comment": "Deemphasised text color on light background/theme" },
-      "inverse-weak": { "value": "{aliases.PALETTE_GREY_15}", "comment": "Deemphasised text color on dark background/theme" },
+      "inverse-weak": {
+        "value": "{aliases.PALETTE_GREY_15}",
+        "comment": "Deemphasised text color on dark background/theme"
+      },
       "action": {},
       "brand": {},
       "button": {},
@@ -134,7 +146,7 @@
       "destructive": {},
       "error": {},
       "icon": {},
-      "label": {},
+      "label": { "value": "{aliases.PALETTE_GREY_75}" },
       "link": {},
       "placeholder": {},
       "required": {},

@@ -53,6 +53,8 @@
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
-    "react/forbid-prop-types": "warn"
+    "react/forbid-prop-types": "warn",
+    "@typescript-eslint/no-use-before-define": "warn",
+    "no-use-before-define": "off"
   }
 }

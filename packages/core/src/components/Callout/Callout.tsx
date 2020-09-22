@@ -5,14 +5,14 @@ import styled, { css } from 'styled-components'
 import {
   TokenSpacingXSmall,
   TokenSpacingSmall,
-  TokenColorBackgroundGrey10,
-  TokenColorBackgroundGrey25,
-  TokenColorBackgroundSuccess,
-  TokenColorBrandSuccess,
-  TokenColorBackgroundWarning,
-  TokenColorBrandWarning,
-  TokenColorBackgroundDanger,
-  TokenColorBrandDanger,
+  TokenColorPaletteGrey10,
+  TokenColorPaletteGrey25,
+  TokenColorBackgroundSuccessBase,
+  TokenColorBackgroundSuccessDark,
+  TokenColorBackgroundWarningBase,
+  TokenColorBackgroundWarningDark,
+  TokenColorBackgroundDangerBase,
+  TokenColorBackgroundDangerDark,
 } from '@smdn/tokens'
 
 const StyledCallout = styled.div<Partial<ICalloutProps>>`
@@ -23,26 +23,26 @@ const StyledCallout = styled.div<Partial<ICalloutProps>>`
   ${(props) =>
     props.color === 'info' &&
     css`
-      border-left: 3px solid ${TokenColorBackgroundGrey25};
-      background-color: ${TokenColorBackgroundGrey10};
+      border-left: 3px solid ${TokenColorPaletteGrey25};
+      background-color: ${TokenColorPaletteGrey10};
     `};
   ${(props) =>
     props.color === 'success' &&
     css`
-      border-left: 3px solid ${TokenColorBrandSuccess};
-      background-color: ${TokenColorBackgroundSuccess};
+      border-left: 3px solid ${TokenColorBackgroundSuccessDark};
+      background-color: ${TokenColorBackgroundSuccessBase};
     `};
   ${(props) =>
     props.color === 'warning' &&
     css`
-      border-left: 3px solid ${TokenColorBrandWarning};
-      background-color: ${TokenColorBackgroundWarning};
+      border-left: 3px solid ${TokenColorBackgroundWarningDark};
+      background-color: ${TokenColorBackgroundWarningBase};
     `};
   ${(props) =>
     props.color === 'danger' &&
     css`
-      border-left: 3px solid ${TokenColorBrandDanger};
-      background-color: ${TokenColorBackgroundDanger};
+      border-left: 3px solid ${TokenColorBackgroundDangerDark};
+      background-color: ${TokenColorBackgroundDangerBase};
     `};
   ${(props) =>
     props.isCondensed &&

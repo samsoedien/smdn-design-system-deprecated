@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { TokenColorBackgroundGrey05, TokenSpacingXxSmall, TokenSpacingSmall, TokenSizeRadiusCircle } from '@smdn/tokens'
+import { TokenColorPaletteGrey05, TokenSpacingXxSmall, TokenSpacingSmall, TokenSizeRadiusCircle } from '@smdn/tokens'
 
 const StyledTag = styled.span<Partial<ITagProps>>`
-  background-color: ${TokenColorBackgroundGrey05};
+  background-color: ${TokenColorPaletteGrey05};
   height: 18px;
   line-height: 18px;
   padding: ${TokenSpacingXxSmall} ${TokenSpacingSmall};
